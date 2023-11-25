@@ -1,2 +1,1 @@
-# I make my own portfolio
-Stack: Ruby on Rails / React
+Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
