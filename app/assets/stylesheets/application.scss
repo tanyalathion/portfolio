@@ -10,3 +10,17 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+// Website general layout
+.custom-margin {
+  margin: 20px; /* Ajoute une marge de 10 pixels sur tous les côtés */
+}
+
+// Custom design elements
+.h1 {
+  display: inline-block;
+  background-size: 100% 100%;
+  color: $black;
+  text-decoration: none;
+  background: linear-gradient(to top, transparent 10%, $yellow 10.1%, $yellow 40%, transparent 40.1%) no-repeat;
+}
