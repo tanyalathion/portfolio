@@ -12,3 +12,41 @@
   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(4373051316486144390)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-12-13 13:46:17 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (14.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 443)
+  Rendered layout layouts/application.html.erb (Duration: 7577.0ms | Allocations: 204429)
+Completed 200 OK in 7650ms (Views: 7596.1ms | ActiveRecord: 0.0ms | Allocations: 211162)
+
+
+Started GET "/" for ::1 at 2023-12-13 13:47:06 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+Started GET "/" for ::1 at 2023-12-13 13:47:11 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5750.4ms | Allocations: 87813)
+Completed 200 OK in 5752ms (Views: 5751.2ms | ActiveRecord: 0.0ms | Allocations: 88131)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 715.5ms | Allocations: 20203)
+Completed 200 OK in 717ms (Views: 716.0ms | ActiveRecord: 0.0ms | Allocations: 20466)
+
+
+Started GET "/" for ::1 at 2023-12-13 13:47:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 335)
+  Rendered layout layouts/application.html.erb (Duration: 347.6ms | Allocations: 79122)
+Completed 200 OK in 363ms (Views: 351.6ms | ActiveRecord: 0.0ms | Allocations: 83260)
+
+

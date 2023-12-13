@@ -1,0 +1,10 @@
+<nav class="navbar-portfolio shadow-sm">
+
+  <div class="nav-tab">
+    <%= link_to home_tasks_path, class: "on-active d-flex flex-column align-items-center my-1 #{'nav-active-link' if (current_page?(home_tasks_path) || current_page?(home_events_path))}" do %>
+      <p class="fs-7">home</p>
+    <% end %>
+
+  </div>
+
+</nav>

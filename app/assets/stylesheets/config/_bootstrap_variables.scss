@@ -7,14 +7,14 @@
 // General style
 $font-family-sans-serif: $body-font;
 $headings-font-family:   $headers-font;
-$body-bg:                $light-gray;
+$body-bg:                $white;
 $font-size-base:         1rem;
 
 // Colors
-$body-color: $gray;
-$primary:    $blue;
+$body-color: $black;
+$primary:    $yellow;
 $success:    $green;
-$info:       $yellow;
+$info:       $light-gray;
 $danger:     $red;
 $warning:    $orange;
 
@@ -24,3 +24,4 @@ $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+$shadow-sm: 0px 0px 10px 3.2px rgba(134, 132, 128, 0.25);
