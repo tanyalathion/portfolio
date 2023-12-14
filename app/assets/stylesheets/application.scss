@@ -24,3 +24,33 @@
   text-decoration: none;
   background: linear-gradient(to top, transparent 10%, $yellow 10.1%, $yellow 40%, transparent 40.1%) no-repeat;
 }
+
+// Text on a image (polaroid setup)
+.image-container {
+  position: relative;
+  display: inline-block; /* Pour que le conteneur ne prenne que la largeur de l'image */
+}
+
+.text-overlay {
+  position: relative;
+  top: 90%;
+  left: 5%;
+  transform: translate(-5%, -10%);
+  color: $black; /* Couleur du texte */
+  font-size: 24px; /* Taille du texte */
+  font-weight: regular;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre de texte pour meilleure lisibilité */
+}
+
+.link-overlay {
+  position: relative;
+  top: 95%;
+  right: 5%;
+  transform: translate(-5%, -5%);
+  color: $black; /* Couleur du texte */
+  font-size: 14px; /* Taille du texte */
+  font-weight: regular;
+  text-align: right;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre de texte pour meilleure lisibilité */
+}
