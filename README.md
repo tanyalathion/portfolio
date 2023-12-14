@@ -1,4 +1,4 @@
-# My prtfolio
+# My portfolio
 
 I'm building my Product Design portfolio.
 Check my [LinkedIn Profile](https://www.linkedin.com/in/tanya-lathion) in the meantime...
