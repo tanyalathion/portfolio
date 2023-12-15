@@ -621,3 +621,31 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 5642ms (Views: 5641.2ms | ActiveRecord: 0.0ms | Allocations: 88416)
 
 
+Started GET "/" for ::1 at 2023-12-15 16:49:43 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4516.9ms | Allocations: 84517)
+  Rendered layout layouts/application.html.erb (Duration: 4517.2ms | Allocations: 84627)
+Completed 500 Internal Server Error in 4535ms (ActiveRecord: 0.0ms | Allocations: 88706)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$white3cd".
+        on line 5040:21 of app/assets/stylesheets/application.scss
+>>   background-color: $white3cd;
+
+   --------------------^
+):
+  
+app/assets/stylesheets/application.scss:5040
+Started GET "/" for ::1 at 2023-12-15 16:50:54 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6284.6ms | Allocations: 132313)
+  Rendered layout layouts/application.html.erb (Duration: 6326.3ms | Allocations: 158548)
+Completed 200 OK in 6328ms (Views: 6327.2ms | ActiveRecord: 0.0ms | Allocations: 158886)
+
+

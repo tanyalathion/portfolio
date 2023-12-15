@@ -1831,7 +1831,7 @@ progress {
 
 .table-warning {
   --bs-table-color: $black;
-  --bs-table-bg: $white3cd;
+  --bs-table-bg: $white;
   --bs-table-border-color: #e6dbb9;
   --bs-table-striped-bg: #f2e7c3;
   --bs-table-striped-color: $black;
@@ -4653,7 +4653,7 @@ textarea.form-control-lg {
 
 .alert-warning {
   --bs-alert-color: #664d03;
-  --bs-alert-bg: $white3cd;
+  --bs-alert-bg: $white;
   --bs-alert-border-color: #ffecb5;
 }
 .alert-warning .alert-link {
@@ -5037,7 +5037,7 @@ textarea.form-control-lg {
 
 .list-group-item-warning {
   color: #664d03;
-  background-color: $white3cd;
+  background-color: $white;
 }
 .list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {
   color: #664d03;
