@@ -7,6 +7,14 @@
 $body-font: "Poppins", "Open Sans", "victor mono";
 $headers-font: "Permanent Marker", "cursive";
 
+$font-sans-serif: $body-font;
+$font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+$body-font-family: $font-sans-serif;
+$body-font-size: 1rem;
+$body-font-weight: 400;
+$body-line-height: 1.5;
+
 // To use a font file (.woff) uncomment following lines
 // @font-face {
 //   font-family: "Font Name";

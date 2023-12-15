@@ -509,3 +509,115 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 9612)
 
 
+Started GET "/" for ::1 at 2023-12-15 15:02:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1334.5ms | Allocations: 76133)
+  Rendered layout layouts/application.html.erb (Duration: 1334.9ms | Allocations: 76243)
+Completed 500 Internal Server Error in 1349ms (ActiveRecord: 0.0ms | Allocations: 80322)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$light-gray".
+        on line 19:19 of app/assets/stylesheets/config/_bootstrap_variables.scss
+        from line 4:9 of app/assets/stylesheets/application.scss
+>> $info:            $light-gray;
+
+   ------------------^
+):
+  
+app/assets/stylesheets/config/_bootstrap_variables.scss:19
+Started GET "/" for ::1 at 2023-12-15 15:02:55 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 879.2ms | Allocations: 60521)
+  Rendered layout layouts/application.html.erb (Duration: 879.4ms | Allocations: 60600)
+Completed 500 Internal Server Error in 880ms (ActiveRecord: 0.0ms | Allocations: 60867)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$light-gray".
+        on line 19:19 of app/assets/stylesheets/config/_bootstrap_variables.scss
+        from line 4:9 of app/assets/stylesheets/application.scss
+>> $info:            $light-gray;
+
+   ------------------^
+):
+  
+app/assets/stylesheets/config/_bootstrap_variables.scss:19
+Started GET "/" for ::1 at 2023-12-15 15:14:29 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 81.0ms | Allocations: 39412)
+  Rendered layout layouts/application.html.erb (Duration: 4330.2ms | Allocations: 79475)
+Completed 500 Internal Server Error in 4332ms (ActiveRecord: 0.0ms | Allocations: 79712)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$shadow-sm".
+        on line 21:15 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   box-shadow: $shadow-sm;
+
+   --------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:21
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 15:16:26 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 621)
+  Rendered layout layouts/application.html.erb (Duration: 5754.2ms | Allocations: 143414)
+Completed 200 OK in 5756ms (Views: 5755.3ms | ActiveRecord: 0.0ms | Allocations: 143722)
+
+
+Started GET "/" for ::1 at 2023-12-15 15:42:45 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 618)
+  Rendered layout layouts/application.html.erb (Duration: 993.1ms | Allocations: 21580)
+Completed 500 Internal Server Error in 994ms (ActiveRecord: 0.0ms | Allocations: 21814)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$gray-600".
+        on line 16:8 of app/assets/stylesheets/config/_colors.scss
+        from line 3:9 of app/assets/stylesheets/application.scss
+>> $gray: $gray-600;
+
+   -------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/config/_colors.scss:16
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 15:43:36 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 621)
+  Rendered layout layouts/application.html.erb (Duration: 5640.6ms | Allocations: 88154)
+Completed 200 OK in 5642ms (Views: 5641.2ms | ActiveRecord: 0.0ms | Allocations: 88416)
+
+
