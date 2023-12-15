@@ -1,10 +1,16 @@
-<nav class="navbar-portfolio shadow-sm">
-
-  <div class="nav-tab">
-    <%= link_to home_tasks_path, class: "on-active d-flex flex-column align-items-center my-1 #{'nav-active-link' if (current_page?(home_tasks_path) || current_page?(home_events_path))}" do %>
-      <p class="fs-7">home</p>
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+  <div class="container px-5">
+    <%= link_to home_path, class: "navbar-brand" do %>
+      <p class="fw-bolder text-primary">Tanya Lathion</p>
     <% end %>
-
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
   </div>
-
 </nav>
