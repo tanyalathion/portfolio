@@ -1194,3 +1194,22 @@ ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
   
 ActionController::RoutingError (No route matches [GET] "/assets/profile.png"):
   
+Started GET "/" for ::1 at 2023-12-15 21:49:51 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 393)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 111)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1357)
+  Rendered layout layouts/application.html.erb (Duration: 6720.6ms | Allocations: 172503)
+Completed 200 OK in 6735ms (Views: 6724.8ms | ActiveRecord: 0.0ms | Allocations: 176637)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-15 21:49:58 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/profile.png"):
+  
