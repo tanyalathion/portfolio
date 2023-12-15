@@ -649,3 +649,71 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 6328ms (Views: 6327.2ms | ActiveRecord: 0.0ms | Allocations: 158886)
 
 
+Started GET "/" for ::1 at 2023-12-15 17:16:25 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 8.2ms | Allocations: 5061)
+  Rendered home/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5804)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 5900)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 9980)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_path' for #<ActionView::Base:0x0000000000bc70>
+
+    '.freeze;@output_buffer.append=  link_to home_path, class: "navbar-brand" do @output_buffer.safe_append='
+                                             ^^^^^^^^^):
+    1: <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+    2:   <div class="container px-5">
+    3:     <%= link_to home_path, class: "navbar-brand" do %>
+    4:       <p class="fw-bolder text-primary">Tanya Lathion</p>
+    5:     <% end %>
+    6:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  
+app/views/shared/_navbar.html.erb:3
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2023-12-15 17:20:16 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 6.1ms | Allocations: 4578)
+  Rendered home/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 4658)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4744)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 5345)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_path' for #<ActionView::Base:0x0000000000fa50>
+
+    '.freeze;@output_buffer.append=  link_to home_path, class: "navbar-brand" do @output_buffer.safe_append='
+                                             ^^^^^^^^^
+Did you mean?  home_path_url):
+    1: <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+    2:   <div class="container px-5">
+    3:     <%= link_to home_path, class: "navbar-brand" do %>
+    4:       <p class="fw-bolder text-primary">Tanya Lathion</p>
+    5:     <% end %>
+    6:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  
+app/views/shared/_navbar.html.erb:3
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2023-12-15 17:20:55 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 209)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 555)
+  Rendered layout layouts/application.html.erb (Duration: 173.1ms | Allocations: 71900)
+Completed 200 OK in 175ms (Views: 174.2ms | ActiveRecord: 0.0ms | Allocations: 72558)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-15 17:20:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/profile.png"):
+  
