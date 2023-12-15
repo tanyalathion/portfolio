@@ -1,29 +1,36 @@
+//.modal
+$modal-zindex: 1055;
+$modal-width: 500px;
+$modal-padding: 1rem;
+$modal-margin: 0.5rem;
+$modal-color: $white;
+$modal-bg: $white;
+$modal-border-color: $border-color-translucent;
+$modal-border-width: 1px;
+$modal-border-radius: 0.5rem;
+$modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+$modal-inner-border-radius: calc(0.5rem - 1px);
+$modal-header-padding-x: 1rem;
+$modal-header-padding-y: 1rem;
+$modal-header-padding: 1rem 1rem;
+$modal-header-border-color: $border-color;
+$modal-header-border-width: 1px;
+$modal-title-line-height: 1.5;
+$modal-footer-gap: 0.5rem;
+$modal-footer-bg: $white;
+$modal-footer-border-color: $border-color;
+$modal-footer-border-width: 1px;
+
+//.modal-backdrop
+$backdrop-zindex: 1050;
+$backdrop-bg: $black;
+$backdrop-opacity: 0.5;
+
 .modal {
-  --bs-modal-zindex: 1055;
-  --bs-modal-width: 500px;
-  --bs-modal-padding: 1rem;
-  --bs-modal-margin: 0.5rem;
-  --bs-modal-color: ;
-  --bs-modal-bg: $white;
-  --bs-modal-border-color: var(--bs-border-color-translucent);
-  --bs-modal-border-width: 1px;
-  --bs-modal-border-radius: 0.5rem;
-  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  --bs-modal-inner-border-radius: calc(0.5rem - 1px);
-  --bs-modal-header-padding-x: 1rem;
-  --bs-modal-header-padding-y: 1rem;
-  --bs-modal-header-padding: 1rem 1rem;
-  --bs-modal-header-border-color: var(--bs-border-color);
-  --bs-modal-header-border-width: 1px;
-  --bs-modal-title-line-height: 1.5;
-  --bs-modal-footer-gap: 0.5rem;
-  --bs-modal-footer-bg: ;
-  --bs-modal-footer-border-color: var(--bs-border-color);
-  --bs-modal-footer-border-width: 1px;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var(--bs-modal-zindex);
+  z-index: $modal-zindex;
   display: none;
   width: 100%;
   height: 100%;
@@ -35,7 +42,7 @@
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: var(--bs-modal-margin);
+  margin: $modal-margin;
   pointer-events: none;
 }
 .modal.fade .modal-dialog {
@@ -55,7 +62,7 @@
 }
 
 .modal-dialog-scrollable {
-  height: calc(100% - var(--bs-modal-margin) * 2);
+  height: calc(100% - $modal-margin) * 2;
 }
 .modal-dialog-scrollable .modal-content {
   max-height: 100%;
@@ -68,7 +75,7 @@
 .modal-dialog-centered {
   display: flex;
   align-items: center;
-  min-height: calc(100% - var(--bs-modal-margin) * 2);
+  min-height: calc(100% - $modal-margin) * 2;
 }
 
 .modal-content {
@@ -76,32 +83,29 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  color: var(--bs-modal-color);
+  color: $modal-color;
   pointer-events: auto;
-  background-color: var(--bs-modal-bg);
+  background-color: $modal-bg;
   background-clip: padding-box;
-  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
-  border-radius: var(--bs-modal-border-radius);
+  border: $modal-border-width solid $modal-border-color;
+  border-radius: $modal-border-radius;
   outline: 0;
 }
 
 .modal-backdrop {
-  --bs-backdrop-zindex: 1050;
-  --bs-backdrop-bg: $black;
-  --bs-backdrop-opacity: 0.5;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var(--bs-backdrop-zindex);
+  z-index: $backdrop-zindex;
   width: 100vw;
   height: 100vh;
-  background-color: var(--bs-backdrop-bg);
+  background-color: $backdrop-bg;
 }
 .modal-backdrop.fade {
   opacity: 0;
 }
 .modal-backdrop.show {
-  opacity: var(--bs-backdrop-opacity);
+  opacity: $backdrop-opacity;
 }
 
 .modal-header {
@@ -109,25 +113,25 @@
   flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
-  padding: var(--bs-modal-header-padding);
-  border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
-  border-top-left-radius: var(--bs-modal-inner-border-radius);
-  border-top-right-radius: var(--bs-modal-inner-border-radius);
+  padding: $modal-header-padding;
+  border-bottom: $modal-header-border-width solid $modal-header-border-color;
+  border-top-left-radius: $modal-inner-border-radius;
+  border-top-right-radius: $modal-inner-border-radius;
 }
 .modal-header .btn-close {
-  padding: calc(var(--bs-modal-header-padding-y) * 0.5) calc(var(--bs-modal-header-padding-x) * 0.5);
-  margin: calc(-0.5 * var(--bs-modal-header-padding-y)) calc(-0.5 * var(--bs-modal-header-padding-x)) calc(-0.5 * var(--bs-modal-header-padding-y)) auto;
+  padding: calc($modal-header-padding-y * 0.5) calc($modal-header-padding-x * 0.5);
+  margin: calc(-0.5 * $modal-header-padding-y) calc(-0.5 * $modal-header-padding-x) calc(-0.5 * $modal-header-padding-y) auto;
 }
 
 .modal-title {
   margin-bottom: 0;
-  line-height: var(--bs-modal-title-line-height);
+  line-height: $modal-title-line-height;
 }
 
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: var(--bs-modal-padding);
+  padding: $modal-padding;
 }
 
 .modal-footer {
@@ -136,14 +140,14 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * 0.5);
-  background-color: var(--bs-modal-footer-bg);
-  border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
-  border-bottom-right-radius: var(--bs-modal-inner-border-radius);
-  border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+  padding: calc($modal-padding - $modal-footer-gap * 0.5);
+  background-color: $modal-footer-bg;
+  border-top: $modal-footer-border-width solid $modal-footer-border-color;
+  border-bottom-right-radius: $modal-inner-border-radius;
+  border-bottom-left-radius: $modal-inner-border-radius;
 }
 .modal-footer > * {
-  margin: calc(var(--bs-modal-footer-gap) * 0.5);
+  margin: calc($modal-footer-gap * 0.5);
 }
 
 @media (min-width: 576px) {
@@ -152,7 +156,7 @@
     --bs-modal-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
   .modal-dialog {
-    max-width: var(--bs-modal-width);
+    max-width: $modal-width;
     margin-right: auto;
     margin-left: auto;
   }
