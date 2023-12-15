@@ -717,3 +717,480 @@ ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
   
 ActionController::RoutingError (No route matches [GET] "/assets/profile.png"):
   
+Started GET "/" for ::1 at 2023-12-15 20:47:37 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 393)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1357)
+  Rendered layout layouts/application.html.erb (Duration: 4246.9ms | Allocations: 39814)
+Completed 500 Internal Server Error in 4263ms (ActiveRecord: 0.0ms | Allocations: 43906)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$hover-color".
+        on line 6:26 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   $nav-link-hover-color: $hover-color;
+
+   -------------------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:6
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:47:43 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 97)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 4620.4ms | Allocations: 34010)
+Completed 500 Internal Server Error in 4622ms (ActiveRecord: 0.0ms | Allocations: 34280)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$hover-color".
+        on line 6:26 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   $nav-link-hover-color: $hover-color;
+
+   -------------------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:6
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:47:49 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 4646.6ms | Allocations: 33707)
+Completed 500 Internal Server Error in 4648ms (ActiveRecord: 0.0ms | Allocations: 33944)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$hover-color".
+        on line 6:26 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   $nav-link-hover-color: $hover-color;
+
+   -------------------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:6
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:49:07 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 3808.5ms | Allocations: 33705)
+Completed 500 Internal Server Error in 3810ms (ActiveRecord: 0.0ms | Allocations: 33939)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-color".
+        on line 167:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:167
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:53:03 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 3759.7ms | Allocations: 33709)
+Completed 500 Internal Server Error in 3761ms (ActiveRecord: 0.0ms | Allocations: 33943)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-color".
+        on line 167:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:167
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:53:27 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 3939.5ms | Allocations: 33705)
+Completed 500 Internal Server Error in 3941ms (ActiveRecord: 0.0ms | Allocations: 33939)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-color".
+        on line 167:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:167
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:53:32 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 4392.7ms | Allocations: 33704)
+Completed 500 Internal Server Error in 4394ms (ActiveRecord: 0.0ms | Allocations: 33938)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-color".
+        on line 167:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:167
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:55:27 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 393)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1357)
+  Rendered layout layouts/application.html.erb (Duration: 3822.6ms | Allocations: 37063)
+Completed 500 Internal Server Error in 3833ms (ActiveRecord: 0.0ms | Allocations: 41155)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-color".
+        on line 167:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:167
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:55:36 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 97)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 4117.2ms | Allocations: 34009)
+Completed 500 Internal Server Error in 4119ms (ActiveRecord: 0.0ms | Allocations: 34279)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-color".
+        on line 167:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:167
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:55:41 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 4413.4ms | Allocations: 34017)
+Completed 500 Internal Server Error in 4414ms (ActiveRecord: 0.0ms | Allocations: 34262)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-color".
+        on line 167:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:167
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:55:46 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 394)
+  Rendered layout layouts/application.html.erb (Duration: 4676.0ms | Allocations: 91622)
+Completed 500 Internal Server Error in 4677ms (ActiveRecord: 0.0ms | Allocations: 92538)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-color".
+        on line 167:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:167
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:56:48 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 4025.2ms | Allocations: 33710)
+Completed 500 Internal Server Error in 4026ms (ActiveRecord: 0.0ms | Allocations: 33947)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-brand-hover-color".
+        on line 172:10 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   color: $navbar-brand-hover-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:172
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 20:59:08 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 3778.2ms | Allocations: 33707)
+Completed 500 Internal Server Error in 3780ms (ActiveRecord: 0.0ms | Allocations: 33941)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$navbar-color".
+        on line 179:20 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   $nav-link-color: $navbar-color;
+
+   -------------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:179
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 21:08:46 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 3804.2ms | Allocations: 33709)
+Completed 500 Internal Server Error in 3805ms (ActiveRecord: 0.0ms | Allocations: 33943)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$scroll-height".
+        on line 258:15 of app/assets/stylesheets/components/_navbar.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 11:9 of app/assets/stylesheets/application.scss
+>>   max-height: $scroll-height, 75vh;
+
+   --------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/components/_navbar.scss:258
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-15 21:09:48 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 6273.3ms | Allocations: 167425)
+Completed 200 OK in 6275ms (Views: 6274.1ms | ActiveRecord: 0.0ms | Allocations: 167732)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-15 21:09:54 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/profile.png"):
+  
+Started GET "/" for ::1 at 2023-12-15 21:14:27 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 393)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1357)
+  Rendered layout layouts/application.html.erb (Duration: 5830.1ms | Allocations: 171208)
+Completed 200 OK in 5860ms (Views: 5853.1ms | ActiveRecord: 0.0ms | Allocations: 175341)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-15 21:14:33 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/assets/profile.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-15 21:16:32 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 5347.0ms | Allocations: 89089)
+Completed 200 OK in 5348ms (Views: 5347.6ms | ActiveRecord: 0.0ms | Allocations: 89386)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-15 21:16:37 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/profile.png"):
+  
