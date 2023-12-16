@@ -1841,3 +1841,47 @@ Started GET "/js/scripts.js" for ::1 at 2023-12-16 08:21:39 +0100
   
 ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
   
+Started GET "/home" for ::1 at 2023-12-16 09:52:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 393)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 109)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1245)
+  Rendered layout layouts/application.html.erb (Duration: 4585.5ms | Allocations: 41256)
+Completed 500 Internal Server Error in 4601ms (ActiveRecord: 0.0ms | Allocations: 45348)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$econdary".
+        on line 5726:10 of app/assets/stylesheets/application.scss
+>>   color: $econdary !important;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/application.scss:5726
+app/views/layouts/application.html.erb:9
+Started GET "/home" for ::1 at 2023-12-16 09:53:03 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 6183.7ms | Allocations: 167957)
+Completed 200 OK in 6185ms (Views: 6184.7ms | ActiveRecord: 0.0ms | Allocations: 168294)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 09:53:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
