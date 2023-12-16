@@ -1508,3 +1508,233 @@ Started GET "/js/scripts.js" for ::1 at 2023-12-16 00:01:30 +0100
   
 ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
   
+Started GET "/" for ::1 at 2023-12-16 06:52:29 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 393)
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 109)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1246)
+  Rendered layout layouts/application.html.erb (Duration: 7011.9ms | Allocations: 173481)
+Completed 200 OK in 7032ms (Views: 7017.2ms | ActiveRecord: 0.0ms | Allocations: 177613)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 06:52:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 06:55:00 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 5939.2ms | Allocations: 89597)
+Completed 200 OK in 5941ms (Views: 5939.8ms | ActiveRecord: 0.0ms | Allocations: 89895)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 06:55:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 06:55:55 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 5627.8ms | Allocations: 89176)
+Completed 200 OK in 5629ms (Views: 5628.3ms | ActiveRecord: 0.0ms | Allocations: 89438)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 06:56:00 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 06:56:46 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 5390.6ms | Allocations: 89196)
+Completed 200 OK in 5392ms (Views: 5391.2ms | ActiveRecord: 0.0ms | Allocations: 89456)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 06:56:52 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 06:57:35 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 9290)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 9549)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 06:57:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 06:58:18 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 9290)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 9552)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 06:58:18 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 06:58:56 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 9887)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 10147)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 06:58:56 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 07:00:30 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 6045.5ms | Allocations: 92265)
+Completed 200 OK in 6046ms (Views: 6046.0ms | ActiveRecord: 0.0ms | Allocations: 92526)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 07:00:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 07:04:47 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 6157.8ms | Allocations: 94395)
+Completed 200 OK in 6160ms (Views: 6158.5ms | ActiveRecord: 0.0ms | Allocations: 94656)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 07:04:54 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 07:11:49 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 278)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 846)
+  Rendered layout layouts/application.html.erb (Duration: 5862.7ms | Allocations: 90500)
+Completed 200 OK in 5867ms (Views: 5865.5ms | ActiveRecord: 0.0ms | Allocations: 91397)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 07:11:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 07:16:50 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 5571.5ms | Allocations: 89191)
+Completed 200 OK in 5573ms (Views: 5572.0ms | ActiveRecord: 0.0ms | Allocations: 89469)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 07:16:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 07:21:24 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 278)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 841)
+  Rendered layout layouts/application.html.erb (Duration: 5600.1ms | Allocations: 90495)
+Completed 200 OK in 5604ms (Views: 5602.6ms | ActiveRecord: 0.0ms | Allocations: 91393)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 07:21:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2023-12-16 07:23:19 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 278)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 844)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 10330)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 11245)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 07:23:19 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/home" for ::1 at 2023-12-16 07:23:37 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 9250)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 9527)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 07:23:37 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/home" for ::1 at 2023-12-16 07:23:38 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 9377)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 9638)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 07:23:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/resume.html" for ::1 at 2023-12-16 07:23:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/resume.html"):
+  
