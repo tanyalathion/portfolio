@@ -1738,3 +1738,106 @@ Started GET "/resume.html" for ::1 at 2023-12-16 07:23:41 +0100
   
 ActionController::RoutingError (No route matches [GET] "/resume.html"):
   
+Started GET "/home" for ::1 at 2023-12-16 08:17:36 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 393)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 109)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1244)
+  Rendered layout layouts/application.html.erb (Duration: 1171.5ms | Allocations: 28095)
+Completed 500 Internal Server Error in 1187ms (ActiveRecord: 0.0ms | Allocations: 32187)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$btn-hover-color".
+        on line 45:10 of app/assets/stylesheets/config/_buttons.scss
+        from line 5:9 of app/assets/stylesheets/application.scss
+>>   color: $btn-hover-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/config/_buttons.scss:45
+app/views/layouts/application.html.erb:9
+Started GET "/home" for ::1 at 2023-12-16 08:19:28 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 945.1ms | Allocations: 22289)
+Completed 500 Internal Server Error in 946ms (ActiveRecord: 0.0ms | Allocations: 22559)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$btn-hover-bg".
+        on line 47:21 of app/assets/stylesheets/config/_buttons.scss
+        from line 5:9 of app/assets/stylesheets/application.scss
+>>   background-color: $btn-hover-bg;
+
+   --------------------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/config/_buttons.scss:47
+app/views/layouts/application.html.erb:9
+Started GET "/home" for ::1 at 2023-12-16 08:20:35 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 971.2ms | Allocations: 22027)
+Completed 500 Internal Server Error in 972ms (ActiveRecord: 0.0ms | Allocations: 22264)
+
+
+  
+ActionView::Template::Error (Error: Undefined variable: "$btn-active-color".
+        on line 69:10 of app/assets/stylesheets/config/_buttons.scss
+        from line 5:9 of app/assets/stylesheets/application.scss
+>>   color: $btn-active-color;
+
+   ---------^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/config/_buttons.scss:69
+app/views/layouts/application.html.erb:9
+Started GET "/home" for ::1 at 2023-12-16 08:21:33 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 66)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 6647.8ms | Allocations: 168514)
+Completed 200 OK in 6649ms (Views: 6648.5ms | ActiveRecord: 0.0ms | Allocations: 168824)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-16 08:21:39 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
