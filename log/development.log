@@ -1885,3 +1885,67 @@ Started GET "/js/scripts.js" for ::1 at 2023-12-16 09:53:09 +0100
   
 ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
   
+Started GET "/home" for ::1 at 2023-12-17 05:30:29 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 384)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 5686)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms | Allocations: 9780)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `meta_title' for #<ActionView::Base:0x0000000000bd10>
+
+    <title>'.freeze;@output_buffer.append=( meta_title );@output_buffer.safe_append='</title>
+                                            ^^^^^^^^^^):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= meta_title %></title>
+    5:     <meta name="description" content="<%= meta_description %>">
+    6: 
+    7:     <!-- Facebook Open Graph data -->
+  
+app/views/layouts/application.html.erb:4
+Started GET "/home" for ::1 at 2023-12-17 05:34:00 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2850)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3452)
+
+
+  
+ActionView::Template::Error (uninitialized constant MetaTagsHelper::DEFAULT_META
+
+    content_for?(:meta_title) ? content_for(:meta_title) : DEFAULT_META["meta_title"]
+                                                           ^^^^^^^^^^^^):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= meta_title %></title>
+    5:     <meta name="description" content="<%= meta_description %>">
+    6: 
+    7:     <!-- Facebook Open Graph data -->
+  
+app/helpers/meta_tags_helper.rb:5:in `meta_title'
+app/views/layouts/application.html.erb:4
+Started GET "/home" for ::1 at 2023-12-17 05:42:35 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 384)
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 316)
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 282.3ms | Allocations: 75463)
+Completed 200 OK in 298ms (Views: 286.1ms | ActiveRecord: 0.0ms | Allocations: 79615)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-17 05:42:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  

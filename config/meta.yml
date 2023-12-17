@@ -1,0 +1,9 @@
+# config/meta.yml
+
+meta_product_name: “Tanya Lathion”
+
+meta_title: “Tanya Lathion – Digital experience enthousiast”
+
+meta_description: “UX Designer and Fullstack Web Developer, with strong Product/Project Management skills.”
+
+meta_image: "pola1.png" # should exist in `app/assets/images/`
