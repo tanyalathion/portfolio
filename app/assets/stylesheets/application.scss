@@ -209,6 +209,33 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+// Stabilo effect thanks to the amaizing tutorial of Graphikart!
+// View it here (french): https://grafikart.fr/tutoriels/hover-souligner-css-1178
+
+.link-marker {
+  position: relative;
+}
+
+.link-marker::after {
+  content: '';
+  transform-origin: 0 0;
+  transform: scaleX(0);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: .4em;
+  background: $yellow;
+  z-index: -1;
+  opacity: 0.8;
+  transition: transform .3s;
+}
+
+.link-marker:hover::after {
+  transform: scaleX(1);
+}
+
+
 pre,
 code,
 kbd,
