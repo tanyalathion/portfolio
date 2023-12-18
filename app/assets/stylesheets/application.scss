@@ -362,7 +362,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  background-color: $orange; /* Couleur de fond */
+  background-color: none; /* Couleur de fond */
   color: $white; /* Couleur du texte */
   padding: 10px 20px; /* Espacement interne */
   border: none; /* Supprimer la bordure */
