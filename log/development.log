@@ -3262,3 +3262,90 @@ Started GET "/js/scripts.js" for ::1 at 2023-12-18 09:14:58 +0100
   
 ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
   
+Started GET "/home" for ::1 at 2023-12-19 12:50:28 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 868)
+Started GET "/" for ::1 at 2023-12-19 12:50:34 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 1833.3ms | Allocations: 92649)
+Completed 500 Internal Server Error in 1835ms (ActiveRecord: 0.0ms | Allocations: 92983)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+    16:     <%= csrf_meta_tags %>
+    17:     <%= csp_meta_tag %>
+    18: 
+    19:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    20:     <%= javascript_importmap_tags %>
+    21:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    22:     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+app/views/layouts/application.html.erb:19
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 434)
+  Rendered shared/_footer.html.erb (Duration: 2.6ms | Allocations: 559)
+  Rendered layout layouts/application.html.erb (Duration: 7841.8ms | Allocations: 513688)
+Completed 200 OK in 7858ms (Views: 7846.9ms | ActiveRecord: 0.0ms | Allocations: 517902)
+
+
+Started GET "/" for ::1 at 2023-12-19 12:52:54 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 868)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 227)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 306.6ms | Allocations: 91881)
+Completed 200 OK in 316ms (Views: 309.6ms | ActiveRecord: 0.0ms | Allocations: 96031)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-19 12:52:55 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/about" for ::1 at 2023-12-19 12:53:06 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 325)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 100)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 11885)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 12660)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-19 12:53:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/index.html" for ::1 at 2023-12-19 12:53:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+Started GET "/home" for ::1 at 2023-12-19 12:53:34 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 168)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 56)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 11350)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 11628)
+
+
+Started GET "/js/scripts.js" for ::1 at 2023-12-19 12:53:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
