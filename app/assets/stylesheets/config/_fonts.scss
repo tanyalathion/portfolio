@@ -1,10 +1,10 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=VT323&family=Victor+Mono:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat&family=Permanent+Marker&display=swap');
 
 // Define fonts for body and headers
-$body-font: 'Cutive Mono', monospace;
+$body-font: 'Montserrat', sans-serif;
 $headers-font: 'Permanent Marker', cursive;
 
 $font-sans-serif: $body-font;
