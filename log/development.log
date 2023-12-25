@@ -4773,3 +4773,48 @@ Processing by ContactsController#new as HTML
 Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 13138)
 
 
+Started GET "/home" for ::1 at 2023-12-25 07:01:58 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 867)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 579)
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 314.4ms | Allocations: 78937)
+Completed 200 OK in 331ms (Views: 318.6ms | ActiveRecord: 0.0ms | Allocations: 83079)
+
+
+Started GET "/about" for ::1 at 2023-12-25 07:02:04 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 340)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 282)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 12499)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 13274)
+
+
+Started GET "/about" for ::1 at 2023-12-25 07:14:48 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 415)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 597)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 13627)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 14573)
+
+
+Started GET "/about" for ::1 at 2023-12-25 07:15:25 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 412)
+  Rendered shared/_navbar.html.erb (Duration: 3.6ms | Allocations: 597)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 61.6ms | Allocations: 13412)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms | Allocations: 14342)
+
+
