@@ -1,9 +1,9 @@
 class ProjectsController < ApplicationController
   def index
-    @projets = Project.all
+
   end
 
   def show
-    @projet = Project.find(params[:id])
+    render "show_#{params[:id]}"
   end
 end
