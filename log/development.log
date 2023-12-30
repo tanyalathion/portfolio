@@ -5254,3 +5254,613 @@ Processing by ProjectsController#index as HTML
 Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 12281)
 
 
+Started GET "/projects/2023" for ::1 at 2023-12-30 07:59:44 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 495)
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 672)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 115.8ms | Allocations: 78836)
+Completed 200 OK in 125ms (Views: 122.0ms | ActiveRecord: 0.0ms | Allocations: 82971)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 07:59:45 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 07:59:45 +0100
+Started GET "/projects/assets/img/tnw-logo.svg" for ::1 at 2023-12-30 07:59:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 07:59:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/tnw-logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 07:59:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:07:26 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.6ms | Allocations: 297)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 597)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 13719)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 14650)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:07:26 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:07:26 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:07:26 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+Started GET "/projects/assets/img/tnw-logo.svg" for ::1 at 2023-12-30 08:07:26 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/tnw-logo.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:07:26 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/home" for ::1 at 2023-12-30 08:14:37 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 560)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 240)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 13037)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 13817)
+
+
+Started GET "/about" for ::1 at 2023-12-30 08:14:49 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 425)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 282)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 12568)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 13338)
+
+
+Started GET "/projects" for ::1 at 2023-12-30 08:14:54 +0100
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 547)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 12317)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 12666)
+
+
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:15:09 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 233)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 11776)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 12032)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:15:09 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:15:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/tnw-logo.svg" for ::1 at 2023-12-30 08:15:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:15:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/tnw-logo.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:15:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:17:40 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 422)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 13780)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 14681)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:17:40 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:17:40 +0100
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:17:40 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/tnw-logo.svg" for ::1 at 2023-12-30 08:17:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/tnw-logo.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:17:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:19:47 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 420)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 13778)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 14703)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:19:47 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:19:47 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:19:47 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:19:47 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:21:15 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.0ms | Allocations: 423)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 13767)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 14688)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:21:15 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:21:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:21:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:21:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:22:12 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.0ms | Allocations: 425)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 13786)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 14707)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:22:12 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:22:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:22:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:22:12 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:22:50 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 425)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 13787)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 14708)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:22:50 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:22:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:22:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:22:50 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:23:43 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.8ms | Allocations: 425)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 13780)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 14702)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:23:43 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:23:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:23:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:23:44 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:24:22 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.1ms | Allocations: 428)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 574)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 13796)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 14721)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:24:22 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:24:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:24:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:24:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:24:44 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.8ms | Allocations: 425)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 13780)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 14702)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:24:44 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:24:44 +0100
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:24:44 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:24:44 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:25:07 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.8ms | Allocations: 425)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 574)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 13793)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 14714)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:25:07 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:25:07 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:07 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:07 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:25:09 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 12247)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 12523)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:25:09 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:25:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:25:29 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 424)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 574)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 13777)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 14677)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:25:29 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:25:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:25:31 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 12220)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 12496)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:25:31 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:25:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:25:53 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.0ms | Allocations: 423)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 13775)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 14676)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:25:53 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:25:53 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:53 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:25:53 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:27:45 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.1ms | Allocations: 423)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 574)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 13779)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 14700)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:27:45 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:27:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:27:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:27:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:33:50 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 411)
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 578)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 6626.1ms | Allocations: 100013)
+Completed 200 OK in 6629ms (Views: 6628.4ms | ActiveRecord: 0.0ms | Allocations: 100934)
+
+
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:33:57 +0100
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:33:57 +0100
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:33:57 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:33:57 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:34:31 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.4ms | Allocations: 410)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 13407)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 14328)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:34:31 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:34:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:34:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:34:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 08:34:51 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.1ms | Allocations: 410)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 13185)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 14106)
+
+
+Started GET "/projects/assets/img/google-play-badge.svg" for ::1 at 2023-12-30 08:34:51 +0100
+Started GET "/projects/assets/img/app-store-badge.svg" for ::1 at 2023-12-30 08:34:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/google-play-badge.svg"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:34:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/app-store-badge.svg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:34:52 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
