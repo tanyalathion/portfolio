@@ -5864,3 +5864,348 @@ Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 08:34:5
   
 ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
   
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:22:05 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.8ms | Allocations: 695)
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 616)
+  Rendered shared/_footer.html.erb (Duration: 1.2ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 532.0ms | Allocations: 110113)
+Completed 200 OK in 550ms (Views: 545.0ms | ActiveRecord: 0.0ms | Allocations: 114247)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:22:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:22:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:22:38 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.7ms | Allocations: 409)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 13395)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 14325)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:22:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:22:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:26:25 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 11876)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 12155)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:26:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:26:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects" for ::1 at 2023-12-30 09:26:30 +0100
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 534)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 12376)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 12701)
+
+
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:26:32 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 11842)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 12097)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:26:32 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:26:32 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:29:15 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.0ms | Allocations: 409)
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 13405)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 14306)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:29:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:29:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:35:32 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.0ms | Allocations: 409)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 578)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 7327.9ms | Allocations: 93945)
+Completed 200 OK in 7331ms (Views: 7330.4ms | ActiveRecord: 0.0ms | Allocations: 94874)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:35:39 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:35:39 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:37:34 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 410)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 13311)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 14231)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:37:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:37:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/contact" for ::1 at 2023-12-30 09:37:55 +0100
+Processing by ContactsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 2608)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 258)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 14458)
+Completed 200 OK in 52ms (Views: 24.6ms | ActiveRecord: 11.2ms | Allocations: 23671)
+
+
+Started GET "/about" for ::1 at 2023-12-30 09:37:57 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 424)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 282)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 12432)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 13203)
+
+
+Started GET "/projects" for ::1 at 2023-12-30 09:37:59 +0100
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 525)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 12131)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 12476)
+
+
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:38:00 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 11647)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 11903)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:38:00 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:38:01 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:38:48 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.8ms | Allocations: 410)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 574)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 13413)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 14313)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:38:48 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:38:48 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:40:41 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.2ms | Allocations: 409)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 13204)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 14124)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:40:42 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:40:42 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:41:31 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 410)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 13409)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 14330)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:41:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:41:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:42:45 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.8ms | Allocations: 409)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 578)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 13191)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 14112)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:42:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:42:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:43:43 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 409)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 13207)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 14127)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:43:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:43:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:44:16 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 410)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 13403)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 14325)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:44:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:44:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/2023" for ::1 at 2023-12-30 09:45:05 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.3ms | Allocations: 409)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 13417)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 14338)
+
+
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:45:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
+Started GET "/projects/assets/img/demo-screen.mp4" for ::1 at 2023-12-30 09:45:06 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/projects/assets/img/demo-screen.mp4"):
+  
