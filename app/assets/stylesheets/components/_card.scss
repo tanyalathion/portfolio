@@ -140,6 +140,11 @@ $card-group-margin: 0.75rem;
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
 
+.clickable-card {
+  text-decoration: none;
+  color: inherit;
+}
+
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
