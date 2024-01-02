@@ -7025,3 +7025,88 @@ Processing by ProjectsController#show as HTML
 Completed 200 OK in 6379ms (Views: 6378.3ms | ActiveRecord: 0.0ms | Allocations: 92059)
 
 
+Started GET "/projects/2023" for ::1 at 2024-01-02 23:11:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.9ms | Allocations: 657)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 616)
+  Rendered shared/_footer.html.erb (Duration: 1.6ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 449.6ms | Allocations: 104842)
+Completed 200 OK in 464ms (Views: 459.6ms | ActiveRecord: 0.0ms | Allocations: 108976)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-02 23:12:33 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.7ms | Allocations: 371)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 13179)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 14115)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-02 23:15:39 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.7ms | Allocations: 371)
+  Rendered shared/_navbar.html.erb (Duration: 2.8ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 13147)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 14075)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-02 23:16:21 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 2.3ms | Allocations: 371)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 576)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 13185)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 14114)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-02 23:17:37 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 370)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 13156)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 14080)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-02 23:18:37 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.8ms | Allocations: 371)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 574)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 13155)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 14076)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-02 23:26:31 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.7ms | Allocations: 367)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 13154)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 14082)
+
+
