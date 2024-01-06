@@ -7213,3 +7213,39 @@ Processing by AboutController#index as HTML
 Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 14252)
 
 
+Started GET "/projects" for ::1 at 2024-01-06 21:49:59 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 941)
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 583)
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 261.5ms | Allocations: 78754)
+Completed 200 OK in 276ms (Views: 265.4ms | ActiveRecord: 0.0ms | Allocations: 82896)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-06 21:50:02 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.7ms | Allocations: 345)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 233)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 12091)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 12486)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-06 21:55:36 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 2.4ms | Allocations: 367)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 576)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 13160)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms | Allocations: 14064)
+
+
