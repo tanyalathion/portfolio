@@ -7249,3 +7249,16 @@ Processing by ProjectsController#show as HTML
 Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms | Allocations: 14064)
 
 
+Started GET "/projects/2023" for ::1 at 2024-01-07 17:34:22 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.8ms | Allocations: 653)
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 616)
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 290.1ms | Allocations: 105054)
+Completed 200 OK in 312ms (Views: 304.8ms | ActiveRecord: 0.0ms | Allocations: 109188)
+
+
