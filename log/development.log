@@ -7262,3 +7262,410 @@ Processing by ProjectsController#show as HTML
 Completed 200 OK in 312ms (Views: 304.8ms | ActiveRecord: 0.0ms | Allocations: 109188)
 
 
+Started GET "/projects/2023" for ::1 at 2024-01-09 04:57:12 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.5ms | Allocations: 652)
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 617)
+  Rendered shared/_footer.html.erb (Duration: 1.8ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 197.9ms | Allocations: 75683)
+Completed 200 OK in 212ms (Views: 207.9ms | ActiveRecord: 0.0ms | Allocations: 79812)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 04:58:30 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.8ms | Allocations: 367)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 13159)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 14085)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:00:54 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.8ms | Allocations: 367)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 62.4ms | Allocations: 13155)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms | Allocations: 14083)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:02:41 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 16.2ms | Allocations: 4353)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 4451)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 5366)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-3 mt-5 mb-lg-0 text-left text-lg-start">
+                            <h1 class="text-marker d-inline display-1 lh-1 mb-3">The Favorite</h1>
+                            <p class="lead fw-normal text-muted mt-3 mb-5">Every kid has his favorite parent. Are sure it's you?</p>
+                            <div class="d-flex flex-column flex-lg-row align-items-center">
+                                <a href="https://youtu.be/HKW5yFXF45Q?si=2nw9Cc7JBDKzurTM" target="_blank">&#128073; Watch the demo here &#128250;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Masthead device mockup feature-->
+                        <div class="d-flex justify-content-center align-items-center mt-5 mt-xxl-0">
+                          <div class="device bg-yellow">
+                            <img class="device-img" src="../assets/portrait_black.png" alt="..." />
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Quote/testimonial aside-->
+        <aside class="bg-light py-3">
+            <div class="container px-5 my-3">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                      <div class="text-left my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-marker d-inline">The user problem</span></h2>
+                        <p class="lead fw-light mb-4">My name is Tanya and I'm a digital experience enthousiast.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- Implication section-->
+        <section id="features">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-5">
+                            <div class="row gx-5 mt-5">
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <div class="feature bg-primary text-black rounded-3 mb-3"><i class="ri-tools-fill"></i></div>
+                                        <h3 class="font-alt">Fullstack Developer</h3>
+                                        <p class="text-muted mb-0">Back-end (Ruby, Rails) and front-end (SCSS, HTML, JavaScript, Bootstrap) development.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <div class="feature bg-primary text-black rounded-3 mb-3"><i class="ri-pencil-ruler-2-line"></i></div>
+                                        <h3 class="font-alt">UX Designer</h3>
+                                        <p class="text-muted mb-0">Development of a UI Kit, functional prototype and user tests.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-5 mb-md-0">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <div class="feature bg-primary text-black rounded-3 mb-3"><i class="ri-git-repository-commits-line"></i></div>
+                                        <h3 class="font-alt">Product Owner</h3>
+                                        <p class="text-muted mb-0">Backlog management, SCRUM ceremonies supervision, ticket tracking and documentation, features prioritization.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Feature item (manque d-block)-->
+                                    <div class="text-center">
+                                        <div class="feature bg-primary text-black rounded-3 mb-3"><i class="ri-lightbulb-line"></i></div>
+                                        <h3 class="font-alt">Product Designer</h3>
+                                        <p class="text-muted mb-0">Definition of user needs, creation of the app concept and functionalities, user story writing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-0 mb-3">
+                        <!-- Features section device mockup-->
+                      <div class="d-flex justify-content-center mt-3 mt-xxl-0">
+                        <div class="device">
+                          <img class="device-img mb-3" src="../assets/portrait_black.png" alt="..." />
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Basic features section-->
+        <section class="bg-light">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-5 mt-5">
+                        <h2 class="text-marker d-inline display-4 mb-4">My biggest contribution to the project</h2>
+                        <p class="lead fw-normal text-muted mt-3 mb-lg-0">At the start of development, our workforce was reduced by 1/3. Nevertheless, we were able to deliver our product on time, with a flawless UI. How did we do it? I took the time to create screen mock-ups and a Bootstrap UI kit on Figma before development began. This avoided many front-end corrections, as the specifications were clear and precise. We saved precious time by prototyping each screen and designing each bootstrap element.</p>
+                    </div>
+                    <div class="col-sm-8 col-md-6 mt-5 mb-5">
+                        <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="../assets/favorite-uikit.png" alt="..." /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- App badge section-->
+        <section class="py-5 bg-primary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                  <h2 class="display-4 text-black fw-bolder mb-4">Let's build something together</h2>
+                  <%= link_to "Watch on Youtube", href="https://youtu.be/HKW5yFXF45Q?si=2nw9Cc7JBDKzurTM" target="_blank", class: "btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"%>
+                </div>
+            </div>
+        </section>
+
+):
+1:    <header class="masthead">
+2:                <div class="container px-5">
+3:                    <div class="row gx-5 align-items-center">
+4:                        <div class="col-lg-6">
+5:                            <!-- Mashead text and app badges-->
+6:                            <div class="mb-3 mt-5 mb-lg-0 text-left text-lg-start">
+7:                                <h1 class="text-marker d-inline display-1 lh-1 mb-3">The Favorite</h1>
+8:                                <p class="lead fw-normal text-muted mt-3 mb-5">Every kid has his favorite parent. Are sure it's you?</p>
+9:                                <div class="d-flex flex-column flex-lg-row align-items-center">
+10:                                    <a href="https://youtu.be/HKW5yFXF45Q?si=2nw9Cc7JBDKzurTM" target="_blank">&#128073; Watch the demo here &#128250;</a>
+11:                                </div>
+12:                            </div>
+13:                        </div>
+14:                        <div class="col-lg-6">
+15:                            <!-- Masthead device mockup feature-->
+16:                            <div class="d-flex justify-content-center align-items-center mt-5 mt-xxl-0">
+17:                              <div class="device bg-yellow">
+18:                                <img class="device-img" src="../assets/portrait_black.png" alt="..." />
+19:                              </div>
+20:                            </div>
+21:                        </div>
+22:                    </div>
+23:                </div>
+24:            </header>
+25:            <!-- Quote/testimonial aside-->
+26:            <aside class="bg-light py-3">
+27:                <div class="container px-5 my-3">
+28:                    <div class="row gx-5 justify-content-center">
+29:                        <div class="col-xl-8">
+30:                          <div class="text-left my-5">
+31:                            <h2 class="display-5 fw-bolder"><span class="text-marker d-inline">The user problem</span></h2>
+32:                            <p class="lead fw-light mb-4">My name is Tanya and I'm a digital experience enthousiast.</p>
+33:                          </div>
+34:                        </div>
+35:                    </div>
+36:                </div>
+37:            </aside>
+38:            <!-- Implication section-->
+39:            <section id="features">
+40:                <div class="container px-5">
+41:                    <div class="row gx-5 align-items-center">
+42:                        <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+43:                            <div class="container-fluid px-5">
+44:                                <div class="row gx-5 mt-5">
+45:                                    <div class="col-md-6 mb-5">
+46:                                        <!-- Feature item-->
+47:                                        <div class="text-center">
+48:                                            <div class="feature bg-primary text-black rounded-3 mb-3"><i class="ri-tools-fill"></i></div>
+49:                                            <h3 class="font-alt">Fullstack Developer</h3>
+50:                                            <p class="text-muted mb-0">Back-end (Ruby, Rails) and front-end (SCSS, HTML, JavaScript, Bootstrap) development.</p>
+51:                                        </div>
+52:                                    </div>
+53:                                    <div class="col-md-6 mb-5">
+54:                                        <!-- Feature item-->
+55:                                        <div class="text-center">
+56:                                            <div class="feature bg-primary text-black rounded-3 mb-3"><i class="ri-pencil-ruler-2-line"></i></div>
+57:                                            <h3 class="font-alt">UX Designer</h3>
+58:                                            <p class="text-muted mb-0">Development of a UI Kit, functional prototype and user tests.</p>
+59:                                        </div>
+60:                                    </div>
+61:                                </div>
+62:                                <div class="row">
+63:                                    <div class="col-md-6 mb-5 mb-md-0">
+64:                                        <!-- Feature item-->
+65:                                        <div class="text-center">
+66:                                            <div class="feature bg-primary text-black rounded-3 mb-3"><i class="ri-git-repository-commits-line"></i></div>
+67:                                            <h3 class="font-alt">Product Owner</h3>
+68:                                            <p class="text-muted mb-0">Backlog management, SCRUM ceremonies supervision, ticket tracking and documentation, features prioritization.</p>
+69:                                        </div>
+70:                                    </div>
+71:                                    <div class="col-md-6">
+72:                                        <!-- Feature item (manque d-block)-->
+73:                                        <div class="text-center">
+74:                                            <div class="feature bg-primary text-black rounded-3 mb-3"><i class="ri-lightbulb-line"></i></div>
+75:                                            <h3 class="font-alt">Product Designer</h3>
+76:                                            <p class="text-muted mb-0">Definition of user needs, creation of the app concept and functionalities, user story writing.</p>
+77:                                        </div>
+78:                                    </div>
+79:                                </div>
+80:                            </div>
+81:                        </div>
+82:                        <div class="col-lg-4 order-lg-0 mb-3">
+83:                            <!-- Features section device mockup-->
+84:                          <div class="d-flex justify-content-center mt-3 mt-xxl-0">
+85:                            <div class="device">
+86:                              <img class="device-img mb-3" src="../assets/portrait_black.png" alt="..." />
+87:                            </div>
+88:                          </div>
+89:                        </div>
+90:                    </div>
+91:                </div>
+92:            </section>
+93:            <!-- Basic features section-->
+94:            <section class="bg-light">
+95:                <div class="container px-5">
+96:                    <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+97:                        <div class="col-12 col-lg-5 mt-5">
+98:                            <h2 class="text-marker d-inline display-4 mb-4">My biggest contribution to the project</h2>
+99:                            <p class="lead fw-normal text-muted mt-3 mb-lg-0">At the start of development, our workforce was reduced by 1/3. Nevertheless, we were able to deliver our product on time, with a flawless UI. How did we do it? I took the time to create screen mock-ups and a Bootstrap UI kit on Figma before development began. This avoided many front-end corrections, as the specifications were clear and precise. We saved precious time by prototyping each screen and designing each bootstrap element.</p>
+100:                        </div>
+101:                        <div class="col-sm-8 col-md-6 mt-5 mb-5">
+102:                            <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="../assets/favorite-uikit.png" alt="..." /></div>
+103:                        </div>
+104:                    </div>
+105:                </div>
+106:            </section>
+107:            <!-- App badge section-->
+108:            <section class="py-5 bg-primary text-white">
+109:                <div class="container px-5 my-5">
+110:                    <div class="text-center">
+111:                      <h2 class="display-4 text-black fw-bolder mb-4">Let's build something together</h2>
+112:                      <%= link_to "Watch on Youtube", href="https://youtu.be/HKW5yFXF45Q?si=2nw9Cc7JBDKzurTM" target="_blank", class: "btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"%>
+113:                    </div>
+114:                </div>
+115:            </section>
+  
+app/views/projects/show_2023.html.erb:112: syntax error, unexpected local variable or method, expecting ')'
+app/views/projects/show_2023.html.erb:112: syntax error, unexpected label
+app/views/projects/show_2023.html.erb:112: syntax error, unexpected local variable or method, expecting ')'
+app/views/projects/show_2023.html.erb:112: syntax error, unexpected label
+app/views/projects/show_2023.html.erb:112: syntax error, unexpected local variable or method, expecting ')'
+app/views/projects/show_2023.html.erb:112: syntax error, unexpected label
+app/views/projects/show_2023.html.erb:112: syntax error, unexpected local variable or method, expecting ')'
+app/views/projects/show_2023.html.erb:112: syntax error, unexpected label
+app/controllers/projects_controller.rb:7:in `show'
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:03:06 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.2ms | Allocations: 367)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 573)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 13226)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 14157)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:04:05 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1310)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2210)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 0..3)):
+    109:             <div class="container px-5 my-5">
+    110:                 <div class="text-center">
+    111:                   <h2 class="display-4 text-black fw-bolder mb-4">Let's build something together</h2>
+    112:                   <%= link_to "Watch on Youtube", "https://youtu.be/HKW5yFXF45Q?si=2nw9Cc7JBDKzurTM", target="_blank", class: "btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"%>
+    113:                 </div>
+    114:             </div>
+    115:         </section>
+  
+app/views/projects/show_2023.html.erb:112
+app/controllers/projects_controller.rb:7:in `show'
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:04:35 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.6ms | Allocations: 343)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 589)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 13197)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 14119)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:06:13 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.7ms | Allocations: 347)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 589)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 13161)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 14082)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:07:05 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.7ms | Allocations: 342)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 589)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 13161)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 14082)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:08:32 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.9ms | Allocations: 345)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 589)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 13219)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 14144)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:09:04 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.6ms | Allocations: 342)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 590)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 13156)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 14077)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:09:50 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.6ms | Allocations: 342)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 589)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 13188)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 14113)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-09 05:10:05 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.7ms | Allocations: 341)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 589)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 13204)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 14125)
+
+
