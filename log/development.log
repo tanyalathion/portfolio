@@ -7692,3 +7692,83 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 179ms (Views: 175.8ms | ActiveRecord: 0.0ms | Allocations: 12270)
 
 
+Started GET "/" for ::1 at 2024-01-12 09:55:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 867)
+  Rendered shared/_navbar.html.erb (Duration: 4.2ms | Allocations: 579)
+  Rendered shared/_footer.html.erb (Duration: 2.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 293.1ms | Allocations: 78575)
+Completed 200 OK in 312ms (Views: 298.1ms | ActiveRecord: 0.0ms | Allocations: 82717)
+
+
+Started GET "/about" for ::1 at 2024-01-12 10:07:12 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 475)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 282)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 12514)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 13289)
+
+
+Started GET "/projects" for ::1 at 2024-01-12 10:07:17 +0100
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 630)
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 244)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 12556)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms | Allocations: 13330)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-12 10:19:43 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 1.3ms | Allocations: 291)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 233)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 11973)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 12319)
+
+
+Started GET "/about" for ::1 at 2024-01-12 12:11:01 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 233)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 11644)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 11905)
+
+
+Started GET "/projects" for ::1 at 2024-01-12 13:59:40 +0100
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 198)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 228)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 11816)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 12078)
+
+
+Started GET "/projects/2023" for ::1 at 2024-01-12 13:59:45 +0100
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2023"}
+  Rendering layout layouts/application.html.erb
+  Rendering projects/show_2023.html.erb within layouts/application
+  Rendered projects/show_2023.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 233)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 11683)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 11936)
+
+
