@@ -1,22 +1,30 @@
-// Colors
+// Couleurs
 $accent: #f1a900;
 $black: #1a1a1a;
-$cream: #f5f0e8;
-$gray-mid: #888780;
-$gray-light: #f1efe8;
+$white: #ffffff;
+$bg-alt: #F7F8FA;
+$gray-mid: #6e6e73;
+$gray-light: #d2d2d7;
+$green-bg: #E4EBB1;
+$green: #8BB31D;
+$cyan-bg: #EFF8F7;
+$cyan: #52CCC2;
+$pink-bg: #FDF1F7;
+$pink: #F193BD;
 
-// Fonts
+// Typographie
 $font-mono: 'Geist Mono', monospace;
-$font-serif: 'Lora', serif;
+$font-body: system-ui, -apple-system, sans-serif;
 
-// Shadows
+// Ombres
 $shadow: 3px 3px 0px $black;
 $shadow-sm: 2px 2px 0px $black;
 
-// Borders
+// Bordures
 $border: 1px solid $black;
-$border-light: 0.5px solid rgba($black, 0.2);
+$border-medium: 1px solid $gray-mid;
+$border-light: 0.5px solid $gray-light;
 
-// Border radii
+// Border radius
 $radius: 8px;
 $radius-lg: 10px;

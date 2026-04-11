@@ -5,37 +5,45 @@
   grid-template-columns: auto 1fr auto;
   gap: 1.5rem;
   align-items: start;
-  padding: 1.25rem 0;
-  border-bottom: $border-light;
+  padding: 1.25rem;
+  border: $border;
+  border-radius: $radius-lg;
+  box-shadow: $shadow;
   text-decoration: none;
   color: inherit;
-  transition: background 0.1s;
+  background: $white;
+  transition: box-shadow 0.1s, transform 0.1s;
+  margin-bottom: 12px;
 
-  &:first-of-type {
-    border-top: $border-light;
+  &:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 0px $accent;
+    border-color: $accent;
   }
 
-  &:hover .case-item__title {
-    color: $accent;
+  &:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
   }
 
   &__num {
     font-size: 11px;
-    color: $accent;
+    color: $gray-mid;
     font-weight: 500;
     padding-top: 3px;
     min-width: 28px;
+    font-family: $font-mono;
   }
 
   &__title {
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 4px;
-    transition: color 0.1s;
+    font-family: $font-mono;
   }
 
   &__desc {
-    font-size: 12px;
+    font-size: 13px;
     color: $gray-mid;
     line-height: 1.6;
   }
@@ -51,5 +59,6 @@
     font-size: 11px;
     color: $gray-mid;
     padding-top: 3px;
+    font-family: $font-mono;
   }
 }

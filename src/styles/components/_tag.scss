@@ -5,14 +5,13 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding: 3px 8px;
-  border: $border;
+  border: $border-medium;
   border-radius: 4px;
-  box-shadow: $shadow-sm;
   color: $black;
+  background-color: $bg-alt;
 
-  &--accent {
-    border-color: $accent;
-    color: $accent;
-    box-shadow: 1px 1px 0 $accent;
+  &--green {
+    border-color: $green;
+    background-color: $green-bg;
   }
 }

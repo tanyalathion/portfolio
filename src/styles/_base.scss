@@ -1,6 +1,6 @@
 @use 'tokens' as *;
 
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -9,11 +9,15 @@
 }
 
 body {
-  font-family: $font-mono;
-  background: $cream;
+  font-family: $font-body;
+  background: $white;
   color: $black;
   font-size: 16px;
   line-height: 1.7;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-mono;
 }
 
 a {
