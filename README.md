@@ -1,15 +1,16 @@
 # tanyalathion.ch
 
-Personal portfolio — Tanya Lathion, Product Designer & Product Manager.
+Tanya Lathion, Product Designer & Product Manager.
+Personal portfolio
 
 Built with 🧑‍🚀 [Astro](https://astro.build), SCSS 🪐 atomic architecture, and 🚀 deployed on [GitHub Pages](#).
 
 ## Stack
 
-- **Framework** — Astro
-- **Styles** — SCSS, atomic design (atoms / molecules / organisms)
-- **Fonts** — Geist Mono (titles, labels) + system-ui (body)
-- **Deployment** — TBD
+- **Framework** 🧱 Astro
+- **Styles** 🎨 SCSS, atomic design (atoms / molecules / organisms)
+- **Fonts** 🪶 Geist Mono (titles, labels) + system-ui (body)
+- **Deployment** 🚀 TBD
 
 ## Structure
 
