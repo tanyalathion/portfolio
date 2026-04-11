@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro'
+import { getCollection, render } from 'astro:content'
+
+export async function getStaticPaths() {
+  const workItems = await getCollection('work')
+  return workItems.map(item => ({
+    params: { slug: item.id.replace('.md', '') },
+    props: { item }
+  }))
+}
+
+const { item } = Astro.props
+const { Content } = await render(item)
+---
+
+<Base title={`${item.data.title} — Tanya Lathion`}>
+
+  <div class="case-header">
+    <a href="/" class="case-back">← Work</a>
+    <span class="case-category">{item.data.category}</span>
+  </div>
+
+  <div class="case-hero">
+    <h1>{item.data.title}</h1>
+    <p class="case-subtitle">{item.data.subtitle}</p>
+  </div>
+
+  <div class="case-meta">
+    <div class="case-meta__block">
+      <span class="case-meta__label">Year</span>
+      <span>{item.data.year}</span>
+    </div>
+    <div class="case-meta__block">
+      <span class="case-meta__label">Roles</span>
+      <span>{item.data.roles.join(' · ')}</span>
+    </div>
+    <div class="case-meta__block">
+      <span class="case-meta__label">Stack</span>
+      <span>{item.data.stack.join(' · ')}</span>
+    </div>
+  </div>
+
+  <div class="case-challenge">
+    <span class="case-meta__label">Challenge</span>
+    <p>{item.data.challenge}</p>
+  </div>
+
+  {item.data.results && (
+    <div class="case-results">
+      <span class="case-meta__label">Results</span>
+      <p>{item.data.results}</p>
+    </div>
+  )}
+
+  <div class="case-content">
+    <Content />
+  </div>
+
+</Base>
