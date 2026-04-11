@@ -6,8 +6,8 @@
   gap: 4rem;
   align-items: start;
 
-  &__main {
-    min-width: 0;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
 
   &__aside {
@@ -73,6 +73,10 @@
   border: $border-light;
   margin-bottom: 2rem;
 
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+
   &__block {
     background: $white;
     padding: 1rem 1.25rem;
@@ -80,14 +84,6 @@
     flex-direction: column;
     gap: 6px;
     font-size: 13px;
-  }
-
-  &__label {
-    font-size: 10px;
-    font-family: $font-mono;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: $accent;
   }
 }
 
