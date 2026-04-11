@@ -19,11 +19,13 @@ $font-body: system-ui, -apple-system, sans-serif;
 // Ombres
 $shadow: 3px 3px 0px $black;
 $shadow-sm: 2px 2px 0px $black;
+$shadow-accent: 3px 3px 0px $accent;
 
 // Bordures
 $border: 1px solid $black;
 $border-medium: 1px solid $gray-mid;
-$border-light: 0.5px solid $gray-light;
+$border-light: 1px solid $gray-light;
+$border-accent: 1px solid $accent;
 
 // Border radius
 $radius: 8px;

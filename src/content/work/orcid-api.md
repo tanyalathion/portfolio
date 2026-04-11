@@ -9,22 +9,24 @@ tags: ["API Integration", "Open Science", "TYPO3"]
 challenge: "Automate the synchronization of researcher publications between ORCID and the institutional TYPO3 website, eliminating manual updates while enriching researcher profiles with Open Science metadata."
 results: "Full automation of publication sync. Researchers manage their profile from a single source of truth. Open Science badges deployed across all researcher profile pages."
 ---
+![Publications' index page screenshot](/images/work/desktop.png)
+_A new publications' index to showcase scientific excellence of the institution_
 
 ## The Problem
 
-**✍️ 100% manual data entry**
+### ✍️ 100% manual data entry
 
 Researchers had to enter their publications manually on the university website, a tedious process prone to errors and omissions.
 
-**📉 Incomplete and outdated profiles**
+### 📉 Incomplete and outdated profiles
 
 Without automation, researcher pages didn't accurately reflect their work. The university's research visibility suffered as a result.
 
-**🔗 No connection to academic standards**
+### 🔗 No connection to academic standards
 
 ORCID is the global reference identifier for researchers. The university website had no integration with it whatsoever.
 
-**🔍 No aggregated view**
+### 🔍 No aggregated view
 
 No page existed to browse the full scientific output of UniDistance Suisse in one place.
 
@@ -41,13 +43,20 @@ Rather than starting from assumptions, a fully manual first version was deployed
 
 🔸 User tests conducted with researchers on the sync interface before UI design work to catch frictions and observe user’s behavior.
 
+![Publications' edition component anatomy](/images/work/howto-orcidapi.png)
+_Anatomy of the publication's edit component_
+
+
 ## My roles
 
-**UX/UI Designer:** Sync flow design • Publication editing interface • User testing • Publication page and components design
+### UX/UI Designer
+Sync flow design • Publication editing interface • User testing • Publication page and components design
 
-**Product Designer:** Data base design • Business logic & sync rules • Enriched fields definition (open data, etc.) 
+### Product Designer
+Data base design • Business logic & sync rules • Enriched fields definition (open data, etc.) 
 
-**Product Manager:** Requirements gathering & prioritisation • Roadmap set up • Functional specs generation • Backlog management
+### Product Manager
+Requirements gathering & prioritisation • Roadmap set up • Functional specs generation • Backlog management
 
 
 ## Main learning
