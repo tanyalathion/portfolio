@@ -1,0 +1,10 @@
+{
+  "brand": "Vins du Valais",
+  "year": "2012",
+  "order": 2,
+  "images": [
+    { "src": "/images/oldies/vins-du-valais-1.jpg", "alt": "M&C Saatchi — Vins du Valais" },
+    { "src": "/images/oldies/vins-du-valais-2.jpg", "alt": "M&C Saatchi — Vins du Valais" },
+    { "src": "/images/oldies/vins-du-valais-3.jpg", "alt": "M&C Saatchi — Vins du Valais" }
+  ]
+}

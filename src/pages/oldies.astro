@@ -1,5 +1,9 @@
 ---
 import Base from '../layouts/Base.astro'
+import { getCollection } from 'astro:content'
+
+const brands = (await getCollection('oldies'))
+  .sort((a, b) => a.data.order - b.data.order)
 ---
 
 <Base title="Oldies — Tanya Lathion">
@@ -10,8 +14,52 @@ import Base from '../layouts/Base.astro'
     <p class="oldies-intro">I spent several years as an Art Director and Copywriter at McCann Erickson, Saatchi & Saatchi, M&C Saatchi, and Gaultier Colette; crafting campaigns across print, digital, and brand identity. These are some traces of that life.</p>
   </div>
 
-  <div class="oldies-gallery">
-    <p class="oldies-placeholder">Images coming soon.</p>
+  {brands.map(brand => (
+    <div class="oldies-series">
+      <div class="oldies-series__header">
+        <span class="oldies-series__name">{brand.data.brand}</span>
+        <span class="oldies-series__year">{brand.data.year}</span>
+      </div>
+      <div class="oldies-series__track">
+        {brand.data.images.map(img => (
+          <div class="oldies-card" data-src={img.src} data-alt={img.alt}>
+            <img src={img.src} alt={img.alt} loading="lazy" />
+          </div>
+        ))}
+      </div>
+    </div>
+  ))}
+
+  <div class="oldies-overlay" id="oldies-overlay">
+    <button class="oldies-overlay__close" id="oldies-close">✕</button>
+    <img src="" alt="" id="oldies-overlay-img" />
   </div>
 
 </Base>
+
+<script>
+  const overlay = document.getElementById('oldies-overlay')
+  const overlayImg = document.getElementById('oldies-overlay-img') as HTMLImageElement
+  const closeBtn = document.getElementById('oldies-close')
+
+  document.querySelectorAll('.oldies-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const src = card.getAttribute('data-src')
+      const alt = card.getAttribute('data-alt')
+      if (overlayImg && src && alt) {
+        overlayImg.src = src
+        overlayImg.alt = alt
+      }
+      overlay?.classList.add('oldies-overlay--open')
+    })
+  })
+
+  closeBtn?.addEventListener('click', () => {
+    overlay?.classList.remove('oldies-overlay--open')
+  })
+ overlay?.addEventListener('click', (e) => {
+    if (e.target === overlay) {
+      overlay.classList.remove('oldies-overlay--open')
+    }
+  })
+</script>

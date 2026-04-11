@@ -13,7 +13,21 @@ const work = defineCollection({
     tags: z.array(z.string()),
     challenge: z.string(),
     results: z.string().optional(),
+    hero: z.string().optional(),
   })
 })
 
-export const collections = { work }
+const oldies = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/oldies' }),
+  schema: z.object({
+    brand: z.string(),
+    year: z.string(),
+    order: z.number(),
+    images: z.array(z.object({
+      src: z.string(),
+      alt: z.string(),
+    }))
+  })
+})
+
+export const collections = { work, oldies }

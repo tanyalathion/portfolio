@@ -1,0 +1,11 @@
+{
+  "brand": "Emirates",
+  "year": "2011",
+  "order": 1,
+  "images": [
+    { "src": "/images/oldies/emirates-tram-1.jpg", "alt": "Saatchi & Saatchi — Tram Emirates" },
+    { "src": "/images/oldies/emirates-tram-2.jpg", "alt": "Saatchi & Saatchi — Tram Emirates" },
+    { "src": "/images/oldies/emirates-flyers-1.jpg", "alt": "Saatchi & Saatchi — Flyer Emirates" },
+    { "src": "/images/oldies/emirates-flyers-2.jpg", "alt": "Saatchi & Saatchi — Flyer Emirates" }
+  ]
+}
