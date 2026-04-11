@@ -1,0 +1,18 @@
+@use '../tokens' as *;
+
+.tag {
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: $border;
+  border-radius: 4px;
+  box-shadow: $shadow-sm;
+  color: $black;
+
+  &--accent {
+    border-color: $accent;
+    color: $accent;
+    box-shadow: 1px 1px 0 $accent;
+  }
+}

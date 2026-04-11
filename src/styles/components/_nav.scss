@@ -1,0 +1,44 @@
+@use '../tokens' as *;
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: $border;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+
+  &__logo {
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: $black;
+
+    span { color: $accent; }
+  }
+
+  &__links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__link {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $gray-mid;
+    text-decoration: none;
+    transition: color 0.1s;
+
+    &:hover,
+    &--active {
+      color: $black;
+    }
+
+    &--active {
+      border-bottom: 1px solid $accent;
+    }
+  }
+}

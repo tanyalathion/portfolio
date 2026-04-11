@@ -1,0 +1,26 @@
+@use '../tokens' as *;
+
+.footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-top: $border-light;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: $gray-mid;
+
+  &__links {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: $gray-mid;
+      text-decoration: none;
+      transition: color 0.1s;
+
+      &:hover { color: $black; }
+    }
+  }
+}

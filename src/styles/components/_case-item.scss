@@ -1,0 +1,55 @@
+@use '../tokens' as *;
+
+.case-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.25rem 0;
+  border-bottom: $border-light;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.1s;
+
+  &:first-of-type {
+    border-top: $border-light;
+  }
+
+  &:hover .case-item__title {
+    color: $accent;
+  }
+
+  &__num {
+    font-size: 11px;
+    color: $accent;
+    font-weight: 500;
+    padding-top: 3px;
+    min-width: 28px;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    transition: color 0.1s;
+  }
+
+  &__desc {
+    font-size: 12px;
+    color: $gray-mid;
+    line-height: 1.6;
+  }
+
+  &__tags {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+
+  &__year {
+    font-size: 11px;
+    color: $gray-mid;
+    padding-top: 3px;
+  }
+}

@@ -1,0 +1,18 @@
+---
+interface Props {
+  date: string
+  title: string
+  excerpt: string
+  href: string
+}
+
+const { date, title, excerpt, href } = Astro.props
+---
+
+<a href={href} class="blog-row">
+  <div class="blog-row__date">{date}</div>
+  <div class="blog-row__content">
+    <div class="blog-row__title">{title}</div>
+    <div class="blog-row__excerpt">{excerpt}</div>
+  </div>
+</a>

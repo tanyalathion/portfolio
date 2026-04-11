@@ -1,0 +1,38 @@
+@use '../tokens' as *;
+
+.blog-row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: $border-light;
+  text-decoration: none;
+  color: inherit;
+
+  &:first-of-type {
+    border-top: $border-light;
+  }
+
+  &:hover .blog-row__title {
+    color: $accent;
+  }
+
+  &__date {
+    font-size: 11px;
+    color: $gray-mid;
+    line-height: 1.8;
+  }
+
+  &__title {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    transition: color 0.1s;
+  }
+
+  &__excerpt {
+    font-size: 12px;
+    color: $gray-mid;
+    line-height: 1.6;
+  }
+}

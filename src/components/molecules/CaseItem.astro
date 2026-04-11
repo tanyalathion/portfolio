@@ -1,0 +1,26 @@
+---
+import Tag from '../atoms/Tag.astro'
+
+interface Props {
+  num: string
+  title: string
+  desc: string
+  year: string
+  tags: { label: string; accent?: boolean }[]
+  href: string
+}
+
+const { num, title, desc, year, tags, href } = Astro.props
+---
+
+<a href={href} class="case-item">
+  <span class="case-item__num">{num}</span>
+  <div class="case-item__body">
+    <div class="case-item__title">{title}</div>
+    <div class="case-item__desc">{desc}</div>
+    <div class="case-item__tags">
+      {tags.map(t => <Tag accent={t.accent}>{t.label}</Tag>)}
+    </div>
+  </div>
+  <span class="case-item__year">{year}</span>
+</a>

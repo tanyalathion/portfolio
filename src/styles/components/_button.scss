@@ -1,0 +1,33 @@
+@use '../tokens' as *;
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-family: $font-mono;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-radius: $radius;
+  border: $border;
+  box-shadow: $shadow;
+  transition: box-shadow 0.1s, transform 0.1s;
+  background: $cream;
+  color: $black;
+
+  &:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+
+  &--primary {
+    background: $accent;
+  }
+
+  &--ghost {
+    box-shadow: $shadow;
+    background: transparent;
+  }
+}

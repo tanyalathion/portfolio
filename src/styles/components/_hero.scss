@@ -1,0 +1,37 @@
+@use '../tokens' as *;
+
+.hero {
+  padding-bottom: 3rem;
+  border-bottom: $border-light;
+  margin-bottom: 3rem;
+
+  &__label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $gray-mid;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-family: $font-serif;
+    font-size: clamp(28px, 5vw, 52px);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+
+    em {
+      font-style: italic;
+      border-bottom: 2px solid $accent;
+      color: $accent;
+    }
+  }
+
+  &__meta {
+    display: flex;
+    gap: 2rem;
+    font-size: 11px;
+    color: $gray-mid;
+  }
+}
