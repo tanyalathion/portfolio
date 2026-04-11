@@ -1,9 +1,9 @@
 ---
 const links = [
-  { label: 'Work', href: '/work' },
-  { label: 'System', href: '/system' },
-  { label: 'Writing', href: '/writing' },
+  { label: 'Work', href: '/' },
   { label: 'About', href: '/about' },
+  { label: 'Oldies', href: '/oldies' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 const currentPath = Astro.url.pathname
@@ -12,12 +12,15 @@ const currentPath = Astro.url.pathname
 <nav class="nav">
   <a href="/" class="nav__logo">TL <span>·</span> Tanya Lathion</a>
   <div class="nav__links">
-    {links.map(l => (
-      <a href={l.href} class={`nav__link${currentPath.startsWith(l.href) ? ' nav__link--active' : ''}`}>
-        {l.label}
-      </a>
-    ))}
-  </div>
+  {links.map(l => (
+    <a href={l.href} class={`nav__link${
+      (l.href === '/' ? currentPath === '/' : currentPath.startsWith(l.href))
+        ? ' nav__link--active' : ''
+    }`}>
+      {l.label}
+    </a>
+  ))}
+</div>
   <button class="nav__burger" aria-label="Menu" aria-expanded="false">
   <span></span>
   <span></span>

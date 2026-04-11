@@ -1,0 +1,169 @@
+@use '../tokens' as *;
+
+// About
+.about-hero {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: $border-light;
+
+  h1 {
+    font-size: clamp(24px, 4vw, 40px);
+    font-weight: 400;
+    margin: 0.5rem 0 1rem;
+  }
+}
+
+.about-label,
+.oldies-label,
+.contact-label {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $gray-mid;
+  font-family: $font-mono;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.about-bio {
+  font-size: 16px;
+  line-height: 1.8;
+  color: $gray-mid;
+  max-width: 640px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.about-section {
+  h2 {
+    font-family: $font-mono;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $gray-mid;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  &__item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1rem;
+    align-items: start;
+  }
+
+  &__year {
+    font-size: 11px;
+    font-family: $font-mono;
+    color: $gray-mid;
+    padding-top: 2px;
+  }
+
+  &__title {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  &__sub {
+    font-size: 12px;
+    color: $gray-mid;
+  }
+}
+
+// Contact
+.contact-wrap {
+  max-width: 480px;
+
+  h1 {
+    font-size: clamp(24px, 4vw, 40px);
+    font-weight: 400;
+    margin: 0.5rem 0 2rem;
+  }
+}
+
+.contact-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border: $border;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  font-family: $font-mono;
+  font-size: 13px;
+  font-weight: 500;
+  color: $black;
+  text-decoration: none;
+  transition: box-shadow 0.1s, transform 0.1s;
+  margin-bottom: 2rem;
+
+  &:hover {
+    background: $accent;
+  }
+
+  &:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 12px;
+  font-family: $font-mono;
+
+  a {
+    color: $gray-mid;
+    text-decoration: none;
+
+    &:hover { color: $black; }
+  }
+}
+
+// Oldies
+.oldies-hero {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: $border-light;
+
+  h1 {
+    font-size: clamp(22px, 3vw, 36px);
+    font-weight: 400;
+    margin: 0.5rem 0 1rem;
+  }
+}
+
+.oldies-intro {
+  font-size: 15px;
+  line-height: 1.8;
+  color: $gray-mid;
+  max-width: 600px;
+}
+
+.oldies-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.oldies-placeholder {
+  font-size: 13px;
+  color: $gray-mid;
+  font-family: $font-mono;
+}

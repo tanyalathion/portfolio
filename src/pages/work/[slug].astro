@@ -1,4 +1,5 @@
 ---
+import TableOfContents from '../../components/molecules/TableOfContents.astro'
 import Base from '../../layouts/Base.astro'
 import { getCollection, render } from 'astro:content'
 
@@ -11,7 +12,13 @@ export async function getStaticPaths() {
 }
 
 const { item } = Astro.props
-const { Content } = await render(item)
+const { Content, headings: rawHeadings } = await render(item)
+
+const headings = rawHeadings.map(h => ({
+  text: h.text,
+  slug: h.slug
+}))
+
 ---
 
 <Base title={`${item.data.title} — Tanya Lathion`}>
@@ -20,6 +27,9 @@ const { Content } = await render(item)
     <a href="/" class="case-back">← Work</a>
     <span class="case-category">{item.data.category}</span>
   </div>
+
+  <div class="case-layout">
+    <div class="case-layout__main">
 
   <div class="case-hero">
     <h1>{item.data.title}</h1>
@@ -55,6 +65,11 @@ const { Content } = await render(item)
 
   <div class="case-content">
     <Content />
+  </div>
+      </div>
+    <aside class="case-layout__aside">
+      <TableOfContents headings={headings} />
+    </aside>
   </div>
 
 </Base>

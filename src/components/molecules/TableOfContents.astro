@@ -1,0 +1,43 @@
+---
+interface Heading {
+  text: string
+  slug: string
+}
+
+interface Props {
+  headings: Heading[]
+}
+
+const { headings } = Astro.props
+---
+
+<nav class="toc">
+  <span class="toc__label">On this page</span>
+  <ul class="toc__list">
+    {headings.map(h => (
+      <li class="toc__item">
+        <a href={`#${h.slug}`} class="toc__link">{h.text}</a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<script>
+  const links = document.querySelectorAll('.toc__link')
+  const headings = document.querySelectorAll('.case-content h2')
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          links.forEach(l => l.classList.remove('toc__link--active'))
+          const active = document.querySelector(`.toc__link[href="#${entry.target.id}"]`)
+          active?.classList.add('toc__link--active')
+        }
+      })
+    },
+    { rootMargin: '0px 0px -70% 0px' }
+  )
+
+  headings.forEach(h => observer.observe(h))
+</script>
