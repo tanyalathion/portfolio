@@ -7,7 +7,7 @@ roles: ["UI Designer", "Product Owner", "Front-end Developer"]
 stack: ["TYPO3", "Bootstrap", "SCSS", "Figma"]
 tags: ["UI Design", "Atomic Design", "Accessibility"]
 challenge: "Redesign the UI in two weeks within a squad of 4 developers, CSS only — no layout or interaction modifications."
-results: "Bounce rate reduced by 15% immediately after go-live. Engagement up 30% year-on-year."
+results: "Bounce rate reduced by 5% immediately after go-live. Engagement up 20% year-on-year."
 ---
 
 ## Context
