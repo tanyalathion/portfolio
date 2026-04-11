@@ -10,7 +10,10 @@ const currentPath = Astro.url.pathname
 ---
 
 <nav class="nav">
-  <a href="/" class="nav__logo">TL <span>·</span> Tanya Lathion</a>
+  <a href="/" class="nav__logo">
+  <img src="/favicon-tl.svg" alt="TL" class="nav__logo-icon" />
+  Tanya Lathion
+  </a>
   <div class="nav__links">
   {links.map(l => (
     <a href={l.href} class={`nav__link${
