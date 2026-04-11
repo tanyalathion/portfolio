@@ -14,10 +14,9 @@ export async function getStaticPaths() {
 const { item } = Astro.props
 const { Content, headings: rawHeadings } = await render(item)
 
-const headings = rawHeadings.map(h => ({
-  text: h.text,
-  slug: h.slug
-}))
+const headings = rawHeadings
+  .filter(h => h.depth === 2)
+  .map(h => ({ text: h.text, slug: h.slug }))
 
 ---
 
