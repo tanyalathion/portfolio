@@ -1,7 +1,72 @@
 ---
 import Base from '../layouts/Base.astro'
+import Hero from '../components/organisms/Hero.astro'
+import CaseItem from '../components/molecules/CaseItem.astro'
+import BlogRow from '../components/molecules/BlogRow.astro'
+
+const cases = [
+  {
+    num: '01',
+    title: 'ORCID API — Researcher profiles automation',
+    desc: 'Automated publication sync between ORCID and TYPO3, Open Science badges, enriched profile pages.',
+    year: '2024',
+    tags: [{ label: 'API integration', accent: true }, { label: 'TYPO3' }],
+    href: '/work/orcid'
+  },
+  {
+    num: '02',
+    title: 'UniDistance — Design system & token architecture',
+    desc: '5 faculty identities, SCSS semantic tokens, WCAG 2.1, GitHub Pages docs site.',
+    year: '2024',
+    tags: [{ label: 'Design tokens', accent: true }, { label: 'SCSS' }],
+    href: '/work/design-system'
+  },
+  {
+    num: '03',
+    title: 'WorkAdventure — Virtual campus pilot',
+    desc: 'Grassroots pilot with 15 participants to demonstrate value of virtual collaborative space.',
+    year: '2024',
+    tags: [{ label: 'Product strategy', accent: true }, { label: 'UX research' }],
+    href: '/work/workadventure'
+  },
+]
+
+const posts = [
+  {
+    date: '12 Jan 2025',
+    title: 'Semantic tokens in TYPO3 — why the extra layer matters',
+    excerpt: 'On the structural difference between design tokens and semantic tokens.',
+    href: '/writing/semantic-tokens'
+  },
+  {
+    date: '03 Dec 2024',
+    title: 'WCAG in institutional contexts — auditing at scale',
+    excerpt: 'A practical framework for accessibility audits when your site has 400+ pages.',
+    href: '/writing/wcag-institutional'
+  },
+]
 ---
 
 <Base title="Tanya Lathion — Product Designer & Developer">
-  <p>Hello</p>
+
+  <Hero
+    meta={['Valais, Switzerland', 'UX · Design systems · TYPO3']}
+  />
+
+  <section class="section">
+    <div class="section__header">
+      <span class="section__label">Case studies</span>
+      <span class="section__count">03</span>
+    </div>
+    {cases.map(c => <CaseItem {...c} />)}
+  </section>
+
+  <section class="section">
+    <div class="section__header">
+      <span class="section__label">Writing</span>
+      <span class="section__count">Recent</span>
+    </div>
+    {posts.map(p => <BlogRow {...p} />)}
+  </section>
+
 </Base>

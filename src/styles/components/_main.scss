@@ -1,0 +1,30 @@
+@use '../tokens' as *;
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+  }
+
+  &__label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $gray-mid;
+  }
+
+  &__count {
+    font-size: 11px;
+    color: $gray-mid;
+  }
+}

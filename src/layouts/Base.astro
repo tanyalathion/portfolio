@@ -1,4 +1,6 @@
 ---
+import Nav from '../components/organisms/Nav.astro'
+import Footer from '../components/organisms/Footer.astro'
 import '../styles/global.scss'
 
 interface Props {
@@ -15,74 +17,10 @@ const { title = 'Tanya Lathion' } = Astro.props
     <title>{title}</title>
   </head>
   <body>
-    <nav class="nav">
-      <a href="/" class="nav-logo">TL <span>·</span> Tanya Lathion</a>
-      <div class="nav-links">
-        <a href="/work">Work</a>
-        <a href="/system">System</a>
-        <a href="/writing">Writing</a>
-        <a href="/about">About</a>
-      </div>
-    </nav>
-    <main>
+    <Nav />
+    <main class="main">
       <slot />
     </main>
-    <footer class="footer">
-      <span>tanyalathion.ch</span>
-      <span>GitHub · LinkedIn · hello@tanyalathion.ch</span>
-    </footer>
+    <Footer />
   </body>
 </html>
-
-<style lang="scss">
-  @use '/src/styles/_tokens' as *;
-
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem;
-    border-bottom: $border;
-    max-width: 900px;
-    margin: 0 auto;
-    width: 100%;
-
-    &-logo {
-      font-size: 13px;
-      font-weight: 500;
-
-      span { color: $accent; }
-    }
-
-    &-links {
-      display: flex;
-      gap: 2rem;
-
-      a {
-        font-size: 11px;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: $gray-mid;
-
-        &:hover { color: $black; }
-      }
-    }
-  }
-
-  main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 3rem 1.5rem;
-  }
-
-  .footer {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1.5rem;
-    border-top: $border-light;
-    display: flex;
-    justify-content: space-between;
-    font-size: 11px;
-    color: $gray-mid;
-  }
-</style>

@@ -13,10 +13,7 @@ const currentPath = Astro.url.pathname
   <a href="/" class="nav__logo">TL <span>·</span> Tanya Lathion</a>
   <div class="nav__links">
     {links.map(l => (
-      
-        href={l.href}
-        class:list={['nav__link', { 'nav__link--active': currentPath.startsWith(l.href) }]}
-      >
+      <a href={l.href} class={`nav__link${currentPath.startsWith(l.href) ? ' nav__link--active' : ''}`}>
         {l.label}
       </a>
     ))}
