@@ -13,6 +13,8 @@ results: "Bounce rate reduced by 5% immediately after go-live. Engagement up 20%
 ## Context
 
 The brand image was evolving and the website no longer matched the new graphic design. The UI needed to be aligned with the graphic charter while improving accessibility — with a constraint of CSS-only changes to limit risk.
+![Mockup UniDistance Website](/images/work/funid-ui-mockups.png)
+_UniDistance Suisse: New UI_
 
 ## Methodology
 
@@ -21,6 +23,8 @@ Atomic Design approach to meet extreme deadlines. Scope limited to CSS to maximi
 ## Process
 
 Listed all CSS classes in parallel with UI components. Identified patterns and refactored the code. Created a component library in Figma aligned with existing CSS class nomenclature to facilitate hand-off. Redesigned from atoms to molecules.
+![Workflow UniDistance Website](/images/work/funid-ui-workdocs.png)
+_UniDistance Suisse: Work flow_
 
 ## Results
 

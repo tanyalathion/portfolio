@@ -17,6 +17,8 @@ Parents who share responsibility for children — whether in a couple or separat
 ## Solution
 
 An interface to centralize and better distribute tasks, with humor and fun. "The Favorite" offers a humorous take on the burden of parenthood — parents work as a real team while competing against each other.
+![Mockup The Favorite app](/images/work/mockup-favorite.png)
+_The Favorite app: Challenge screen_
 
 ## Methodology
 
@@ -25,6 +27,8 @@ Design Thinking for product ideation. Scrum for development. Atomic Design to al
 ## Process
 
 Epic/User Stories drove back-end developments. Atomic Design allowed alignment of front-end architecture and UI design. Prioritization based on user tests conducted on a functional prototype.
+![Figma prototype The Favorite app](/images/work/favorite-prototype.png)
+_The Favorite app: Figma Prototype_
 
 ## Main learning
 

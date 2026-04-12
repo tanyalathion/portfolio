@@ -1,0 +1,10 @@
+{
+  "brand": "Etat de Genève",
+  "year": "2013",
+  "order": 6,
+  "images": [
+    { "src": "/images/oldies/etat-geneve-1.jpg", "alt": "Gaultier Colette — Etat de Genève" },
+    { "src": "/images/oldies/etat-geneve-2.jpg", "alt": "Gaultier Colette — Etat de Genève" },
+    { "src": "/images/oldies/etat-geneve-3.jpg", "alt": "Gaultier Colette — Etat de Genève" }
+  ]
+}

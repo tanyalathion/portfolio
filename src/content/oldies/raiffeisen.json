@@ -1,0 +1,12 @@
+{
+  "brand": "Raiffeisen (Pitch)",
+  "year": "2012",
+  "order": 4,
+  "images": [
+    { "src": "/images/oldies/raiffeisen-1.jpg", "alt": "M&C Saatchi — Pitch Raiffeisen" },
+    { "src": "/images/oldies/raiffeisen-2.jpg", "alt": "M&C Saatchi — Pitch Raiffeisen" },
+    { "src": "/images/oldies/raiffeisen-3.jpg", "alt": "M&C Saatchi — Pitch Raiffeisen" },
+    { "src": "/images/oldies/raiffeisen-4.jpg", "alt": "M&C Saatchi — Pitch Raiffeisen" },
+    { "src": "/images/oldies/raiffeisen-5.jpg", "alt": "M&C Saatchi — Pitch Raiffeisen" }
+  ]
+}
