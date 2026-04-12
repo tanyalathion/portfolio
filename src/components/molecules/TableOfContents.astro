@@ -24,7 +24,7 @@ const { headings } = Astro.props
 
 <script>
   const links = document.querySelectorAll('.toc__link')
-  const headings = document.querySelectorAll('.case-content h2')
+  const headings = document.querySelectorAll('.case-content h2, .about-section h2')
 
   const observer = new IntersectionObserver(
     entries => {

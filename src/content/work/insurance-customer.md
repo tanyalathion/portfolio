@@ -11,3 +11,6 @@ results: "TBC"
 ---
 
 ## UNDER CONSTRUCTION
+
+![Groupe Mutuel's contact page](/images/work/gm-anatomy.webp)
+_Anatomy of the new contact page_
