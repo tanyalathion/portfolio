@@ -1,10 +1,15 @@
 @use '../tokens' as *;
 
 .nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: $bg-mac;
+  border-bottom: $border;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
   border-bottom: $border;
   max-width: 900px;
   margin: 0 auto;
@@ -76,6 +81,10 @@
 }
 
 &__mobile {
+  position: sticky;
+  top: 48px;
+  z-index: 9;
+  background: $bg-mac;
   display: none;
   flex-direction: column;
   border-bottom: $border;

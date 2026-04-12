@@ -28,7 +28,7 @@ _UniDistance Suisse: Work flow_
 
 ## Results
 
-The website reduced its bounce rate by 15% immediately after going live and increased engagement by 30% over the year.
+The site places greater emphasis on content, while also highlighting the need to improve it. Retention has increased, as has the number of pages viewed, indicating that users find it easier to read and search for information.
 
 ## Main learning
 
