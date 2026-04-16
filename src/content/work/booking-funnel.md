@@ -1,11 +1,11 @@
 ---
 title: "Resorts Booking Funnel"
 subtitle: "UX optimization of a mountain resort's booking funnel"
-category: "UX Research · UX Design"
+category: "UX Research · UX/UI Design"
 year: "2022"
 roles: ["UX Designer", "UX Researcher", "UI Designer"]
 stack: ["TYPO3", "Protel"]
-tags: ["UX Research", "Information Architecture", "Booking"]
+tags: ["UX Research", "Information Architecture", "UI Design"]
 challenge: "Increase direct bookings on the resort's website by taking market share from booking platforms that charge a commission on each conversion."
 results: "Redesigned booking funnel replacing existing pop-out with four distinct pages, enabling journey analytics and identification of conversion blockers."
 ---

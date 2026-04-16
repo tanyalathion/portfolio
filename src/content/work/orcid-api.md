@@ -1,7 +1,7 @@
 ---
 title: "ORCID API Integration"
 subtitle: "Automating researcher publication sync on an institutional website"
-category: "UX Design · API · Front-end"
+category: "UX/UI Design · API"
 year: "2026"
 roles: ["Product Owner", "UX Designer", "UI Designer"]
 stack: ["TYPO3", "ORCID API", "SCSS", "Figma"]

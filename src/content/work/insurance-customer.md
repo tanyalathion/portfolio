@@ -1,7 +1,7 @@
 ---
 title: "Insurance's Website Contact Page"
 subtitle: "UX optimization of a contact page and online services user flow"
-category: "UX Research · UX Design · Content Design & SEO"
+category: "UX Research · UX Design · SEO"
 year: "2021"
 roles: ["UX Designer", "UX Writer", "Content Designer"]
 stack: ["Magnolia CMS"]
