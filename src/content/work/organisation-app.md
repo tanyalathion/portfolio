@@ -5,7 +5,7 @@ category: "UX Design · Full-stack"
 year: "2024"
 roles: ["UX Designer", "Product Owner", "Full-stack Developer"]
 stack: ["Ruby on Rails", "Bootstrap", "Figma"]
-tags: ["UX Design", "Product", "Full-stack"]
+tags: ["Product Design", "Backlog management", "Full-stack development"]
 challenge: "Build a full app in two weeks with a squad of 4 junior developers, despite losing one third of the team at kickoff."
 results: "80% of testers expressed interest in downloading as a native app. 55% said they were ready to pay for the service."
 ---

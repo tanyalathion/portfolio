@@ -5,7 +5,7 @@ category: "UX Research · UX Design · Content Design & SEO"
 year: "2021"
 roles: ["UX Designer", "UX Writer", "Content Designer"]
 stack: ["Magnolia CMS"]
-tags: ["UX Research", "Information Architecture", "User Flows", "Health Insurance"]
+tags: ["UX Research", "Information Architecture", "UX Design"]
 challenge: "TBC"
 results: "TBC"
 ---

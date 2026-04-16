@@ -1,6 +1,6 @@
 ---
-title: "Swisspeak Resorts Booking Funnel"
-subtitle: "UX optimization of a mountain resort's booking user flow"
+title: "Resorts Booking Funnel"
+subtitle: "UX optimization of a mountain resort's booking funnel"
 category: "UX Research · UX Design"
 year: "2022"
 roles: ["UX Designer", "UX Researcher", "UI Designer"]
@@ -12,7 +12,7 @@ results: "Redesigned booking funnel replacing existing pop-out with four distinc
 
 ## Context
 
-Direct booking on the establishment's website competed with online booking platforms charging commission on each stay. The goal was to optimize the UX on swisspeakresorts.com for prospecting and booking — with minimal development effort.
+Direct booking on the establishment's website competed with online booking platforms charging commission on each stay. The goal was to optimize the UX on swisspeakresorts.com for prospecting and booking, with minimal development effort.
 
 ## Methodology
 

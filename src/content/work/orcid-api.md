@@ -5,7 +5,7 @@ category: "UX Design · API · Front-end"
 year: "2026"
 roles: ["Product Owner", "UX Designer", "UI Designer"]
 stack: ["TYPO3", "ORCID API", "SCSS", "Figma"]
-tags: ["API Integration", "Open Science", "TYPO3"]
+tags: ["API Integration", "UI Design", "Database design"]
 challenge: "Automate the synchronization of researcher publications between ORCID and the institutional TYPO3 website, eliminating manual updates while enriching researcher profiles with Open Science metadata."
 results: "Full automation of publication sync. Researchers manage their profile from a single source of truth. Open Science badges deployed across all researcher profile pages."
 ---
@@ -35,13 +35,13 @@ No page existed to browse the full scientific output of UniDistance Suisse in on
 A 6-month MVP to learn before building.
 Rather than starting from assumptions, a fully manual first version was deployed and left running for 6 months. This allowed us to observe real behaviours, collect organic feedback, and understand what researchers actually needed.
 
-🔸 Researchers wanted to display precise metadata: peer-reviewed, preregistered, open data, open materials.
+💡 Researchers wanted to display precise metadata: peer-reviewed, preregistered, open data, open materials.
 
-🔸 Entering the same data twice (ORCID + university website) was seen as an unacceptable waste of time.
+💡 Entering the same data twice (ORCID + university website) was seen as an unacceptable waste of time.
 
-🔸 The manual editing interface revealed significant friction around bibliographic data management.
+💡 The manual editing interface revealed significant friction around bibliographic data management.
 
-🔸 User tests conducted with researchers on the sync interface before UI design work to catch frictions and observe user’s behavior.
+💡 User tests conducted with researchers on the sync interface before UI design work to catch frictions and observe user’s behavior.
 
 ![Publications' edition component anatomy](/images/work/howto-orcidapi.png)
 _Anatomy of the publication's edit component_
