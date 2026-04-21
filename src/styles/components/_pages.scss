@@ -108,7 +108,7 @@
   h1 {
     font-size: clamp(24px, 4vw, 40px);
     font-weight: 400;
-    margin: 0.5rem 0 2rem;
+    margin: 0.5rem 0;
   }
 }
 
@@ -126,7 +126,7 @@
   color: $black;
   text-decoration: none;
   transition: box-shadow 0.1s, transform 0.1s;
-  margin-bottom: 2rem;
+  margin: 2rem;
 
   &:hover {
     background: $accent;
