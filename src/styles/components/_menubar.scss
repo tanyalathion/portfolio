@@ -1,0 +1,75 @@
+@use '../tokens' as *;
+
+.menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 22px;
+  background: $white;
+  border-bottom: 1px solid $black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  font-family: $font-mono;
+  font-size: 12px;
+  user-select: none;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  &__apple {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 8px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid $black;
+
+    &:hover {
+      background: $black;
+      img { filter: invert(1); }
+    }
+  }
+
+  &__logo {
+    width: 14px;
+    height: 14px;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    background: none;
+    border: none;
+    border-right: 1px solid $black;
+    cursor: pointer;
+    padding: 0 12px;
+    height: 22px;
+    font-family: $font-mono;
+    font-size: 12px;
+    color: $black;
+    font-weight: 500;
+
+    &:hover {
+      background: $black;
+      color: $white;
+    }
+  }
+
+  &__right {
+    font-size: 11px;
+    color: $gray-mid;
+    padding-right: 4px;
+  }
+}
