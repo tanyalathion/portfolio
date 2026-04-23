@@ -1,0 +1,79 @@
+@use '../tokens' as *;
+
+.window {
+  position: absolute;
+  background: $white;
+  border: 1px solid $black;
+  box-shadow: 2px 2px 0px $black;
+  min-width: 300px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+
+  &--hidden {
+    display: none;
+  }
+
+  &__titlebar {
+    height: 22px;
+    background: repeating-linear-gradient(
+      180deg,
+      $black 0px,
+      $black 1px,
+      $white 1px,
+      $white 3px
+    );
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    gap: 8px;
+    cursor: move;
+    flex-shrink: 0;
+  }
+
+  &__close {
+    width: 12px;
+    height: 12px;
+    border: 1px solid $black;
+    background: $white;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 0;
+
+    &:hover {
+      background: $black;
+    }
+  }
+
+  &__title {
+    font-family: $font-mono;
+    font-size: 11px;
+    font-weight: 500;
+    color: $white;
+    text-align: center;
+    flex: 1;
+    letter-spacing: 0.05em;
+    mix-blend-mode: difference;
+  }
+
+  &__content {
+    overflow-y: auto;
+    padding: 1.5rem;
+    flex: 1;
+    background: $white;
+
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $white;
+      border-left: 1px solid $black;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $black;
+      border: 1px solid $black;
+    }
+  }
+}
