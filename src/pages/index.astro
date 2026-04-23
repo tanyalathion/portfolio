@@ -11,6 +11,7 @@ const workItems = (await getCollection('work'))
 <Base title="Tanya Lathion">
 
   <div class="desktop-icons">
+  <div class="desktop-icons__row">
     {workItems.map(item => (
       <DesktopIcon
         label={item.data.title}
@@ -18,10 +19,13 @@ const workItems = (await getCollection('work'))
         icon="document"
       />
     ))}
-    <DesktopIcon label="About" windowId="win-about" icon="person" />
-    <DesktopIcon label="Contact" windowId="win-contact" icon="mail" />
+  </div>
+  <div class="desktop-icons__row">
+    <DesktopIcon label="About" windowId="win-about" icon="folder" />
+    <DesktopIcon label="Contact" windowId="win-contact" icon="folder" />
     <DesktopIcon label="Oldies" windowId="win-oldies" icon="folder" />
   </div>
+</div>
 
   {workItems.map(item => (
     <Window
@@ -49,16 +53,3 @@ const workItems = (await getCollection('work'))
   </Window>
 
 </Base>
-
-<style lang="scss">
-  @use '/src/styles/tokens' as *;
-
-  .desktop-icons {
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-</style>
