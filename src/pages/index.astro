@@ -1,52 +1,52 @@
 ---
 import Base from '../layouts/Base.astro'
-import Hero from '../components/organisms/Hero.astro'
-import CaseItem from '../components/molecules/CaseItem.astro'
-import BlogRow from '../components/molecules/BlogRow.astro'
+import Window from '../components/organisms/Window.astro'
+import DesktopIcon from '../components/atoms/DesktopIcon.astro'
 import { getCollection } from 'astro:content'
+import About from './windows/about.astro'
+import Contact from './windows/contact.astro'
+import Oldies from './windows/oldies.astro'
+import Case from './windows/case.astro'
 
-const workItems = await getCollection('work')
-
-const cases = workItems
+const workItems = (await getCollection('work'))
   .sort((a, b) => Number(b.data.year) - Number(a.data.year))
-  .map((item, i) => ({
-    num: `0${i + 1}`,
-    title: item.data.title,
-    desc: item.data.subtitle,
-    year: item.data.year,
-    tags: item.data.tags.map((t, ti) => ({ label: t, accent: ti === 0 })),
-    href: `/work/${item.id.replace('.md', '')}`
-  }))
-const posts = [
-  {
-    date: '12 Jan 2025',
-    title: 'Semantic tokens in TYPO3 — why the extra layer matters',
-    excerpt: 'On the structural difference between design tokens and semantic tokens.',
-    href: '/writing/semantic-tokens'
-  },
-]
 ---
 
-<Base title="Tanya Lathion — Product Designer & Product Manager">
+<Base title="Tanya Lathion">
 
-  <Hero meta={['Valais, Switzerland', 'UX · UI · Design Systems · Product Lifecycle']} />
+  <div class="desktop-icons">
+  <div class="desktop-icons__row">
+    {workItems.map(item => (
+      <DesktopIcon
+        label={item.data.title}
+        windowId={`win-${item.id}`}
+        icon="document"
+      />
+    ))}
+  </div>
+  <div class="desktop-icons__row">
+    <DesktopIcon label="About" windowId="win-about" icon="folder" />
+    <DesktopIcon label="Contact" windowId="win-contact" icon="folder" />
+    <DesktopIcon label="Oldies" windowId="win-oldies" icon="folder" />
+  </div>
+</div>
 
-  <section class="section">
-    <div class="section__header">
-      <span class="section__label">Case studies</span>
-      <span class="section__count">0{workItems.length}</span>
-    </div>
-    {cases.map(c => <CaseItem {...c} />)}
-  </section>
-<!-- partie blog déjà prête pour le jour où je me décide à écrire des trucs pas trop cons -->
-<!-- 
-  <section class="section">
-    <div class="section__header">
-      <span class="section__label">Writing</span>
-      <span class="section__count">Recent</span>
-    </div>
-    {posts.map(p => <BlogRow {...p} />)}
-  </section>
--->
+  {workItems.map((item, i) => (
+  <Window title={item.data.title} id={`win-${item.id}`} x={120 + i * 30} y={60 + i * 30} width={640} hidden={true}>
+    <Case item={item} />
+  </Window>
+))}
+
+<Window title="About" id="win-about" x={200} y={60} width={560} hidden={true}>
+  <About />
+</Window>
+
+<Window title="Contact" id="win-contact" x={300} y={80} width={400} hidden={true}>
+  <Contact />
+</Window>
+
+<Window title="Oldies" id="win-oldies" x={150} y={70} width={740} hidden={true}>
+  <Oldies />
+</Window>
 
 </Base>

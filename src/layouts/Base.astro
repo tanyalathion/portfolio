@@ -1,7 +1,6 @@
 ---
-import Nav from '../components/organisms/Nav.astro'
-import Footer from '../components/organisms/Footer.astro'
 import '../styles/global.scss'
+import MenuBar from '../components/organisms/MenuBar.astro'
 
 interface Props {
   title?: string
@@ -14,14 +13,13 @@ const { title = 'Tanya Lathion' } = Astro.props
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon-tl.svg" />
     <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon-tl.svg" />
   </head>
   <body>
-    <Nav />
-    <main class="main">
+    <MenuBar />
+    <div class="desktop">
       <slot />
-    </main>
-    <Footer />
+    </div>
   </body>
 </html>

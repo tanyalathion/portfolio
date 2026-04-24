@@ -5,9 +5,12 @@
 @use 'components/button';
 @use 'components/case-item';
 @use 'components/blog-row';
-@use 'components/nav';
+@use 'components/menubar';
+@use 'components/window';
+@use 'components/desktop-icon';
 @use 'components/hero';
 @use 'components/footer';
+@use 'components/desktop';
 @use 'components/main';
 @use 'components/case-page';
 @use 'components/toc';

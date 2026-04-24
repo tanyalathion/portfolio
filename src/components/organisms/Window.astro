@@ -1,0 +1,67 @@
+---
+interface Props {
+  title: string
+  id: string
+  x?: number
+  y?: number
+  width?: number
+  hidden?: boolean
+}
+
+const { title, id, x = 100, y = 60, width = 600, hidden = false } = Astro.props
+---
+
+<div
+  class={`window${hidden ? ' window--hidden' : ''}`}
+  id={id}
+  style={`left: ${x}px; top: ${y}px; width: ${width}px;`}
+>
+  <div class="window__titlebar" data-window={id}>
+    <button class="window__close" data-close={id}></button>
+    <span class="window__title">{title}</span>
+  </div>
+  <div class="window__content">
+    <slot />
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.window__titlebar').forEach(bar => {
+    const windowId = bar.getAttribute('data-window')
+    const win = document.getElementById(windowId!)
+    let dragging = false
+    let startX = 0, startY = 0, origX = 0, origY = 0
+
+    bar.addEventListener('mousedown', (e: Event) => {
+      const me = e as MouseEvent
+      dragging = true
+      startX = me.clientX
+      startY = me.clientY
+      origX = win!.offsetLeft
+      origY = win!.offsetTop
+      win!.style.zIndex = '100'
+      document.body.style.userSelect = 'none'
+    })
+
+    document.addEventListener('mousemove', (e: MouseEvent) => {
+      if (!dragging) return
+      const dx = e.clientX - startX
+      const dy = e.clientY - startY
+      win!.style.left = `${origX + dx}px`
+      win!.style.top = `${origY + dy}px`
+    })
+
+    document.addEventListener('mouseup', () => {
+      dragging = false
+      document.body.style.userSelect = ''
+    })
+  })
+
+  document.querySelectorAll('.window__close').forEach(btn => {
+    const windowId = btn.getAttribute('data-close')
+    btn.addEventListener('click', () => {
+      const win = document.getElementById(windowId!)
+      win?.classList.toggle('window--hidden')
+    })
+  })
+</script>

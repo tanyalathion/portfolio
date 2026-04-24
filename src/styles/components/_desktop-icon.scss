@@ -1,0 +1,59 @@
+@use '../tokens' as *;
+
+.desktop-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  width: 100px;
+
+  &:hover {
+  .desktop-icon__img {
+    filter: drop-shadow(3px 3px 0px $accent);
+    transform: translate(-1.5px, -1.5px);
+  }
+  }
+
+  &:focus,
+  &.desktop-icon--selected {
+    .desktop-icon__img {
+      background: $black;
+      svg * {
+        fill: $white;
+        stroke: $white;
+      }
+    }
+    .desktop-icon__label {
+      background: $black;
+      color: $white;
+    }
+  }
+
+  &__img {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__label {
+    font-family: $font-mono;
+    font-size: 11px;
+    color: $black;
+    text-align: center;
+    line-height: 1.3;
+    padding: 1px 3px;
+    word-break: break-word;
+  }
+}
