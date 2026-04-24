@@ -1,7 +1,7 @@
 ---
-title: "The Favorite"
+title: "App for parents"
 subtitle: "Organization app for co-parents"
-category: "UX Design · Full-stack"
+category: "UX Design · Full-stack dev"
 year: "2024"
 roles: ["UX Designer", "Product Owner", "Full-stack Developer"]
 stack: ["Ruby on Rails", "Bootstrap", "Figma"]

@@ -1,5 +1,5 @@
 ---
-title: "Insurance's Website Contact Page"
+title: "Insurance Contact Page"
 subtitle: "UX optimization of a contact page and online services user flow"
 category: "UX Research · UX Design · SEO"
 year: "2021"
