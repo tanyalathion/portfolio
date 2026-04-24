@@ -1,5 +1,4 @@
 ---
-import TableOfContents from '../../components/molecules/TableOfContents.astro'
 import Base from '../../layouts/Base.astro'
 import { getCollection, render } from 'astro:content'
 
@@ -65,10 +64,7 @@ const headings = rawHeadings
   <div class="case-content">
     <Content />
   </div>
-      </div>
-    <aside class="case-layout__aside">
-      <TableOfContents headings={headings} />
-    </aside>
+  </div>
   </div>
 
 </Base>
