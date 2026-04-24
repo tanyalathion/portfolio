@@ -9,7 +9,14 @@
   border: none;
   cursor: pointer;
   padding: 8px;
-  width: 80px;
+  width: 100px;
+
+  &:hover {
+  .desktop-icon__img {
+    filter: drop-shadow(3px 3px 0px $accent);
+    transform: translate(-1.5px, -1.5px);
+  }
+  }
 
   &:focus,
   &.desktop-icon--selected {

@@ -43,7 +43,7 @@ const { label, windowId, icon = 'document' } = Astro.props
 
 <script>
   document.querySelectorAll('.desktop-icon').forEach(icon => {
-    icon.addEventListener('dblclick', () => {
+    icon.addEventListener('click', () => {
       const windowId = icon.getAttribute('data-window')
       const win = document.getElementById(windowId!)
       win?.classList.remove('window--hidden')

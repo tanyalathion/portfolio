@@ -1,12 +1,11 @@
 ---
-import Base from '../layouts/Base.astro'
 import { getCollection } from 'astro:content'
 
 const brands = (await getCollection('oldies'))
   .sort((a, b) => a.data.order - b.data.order)
 ---
 
-<Base title="Oldies — Tanya Lathion">
+<div class="oldies-wrap">
 
   <div class="oldies-hero">
     <span class="oldies-label">Oldies</span>
@@ -35,7 +34,7 @@ const brands = (await getCollection('oldies'))
     <img src="" alt="" id="oldies-overlay-img" />
   </div>
 
-</Base>
+</div>
 
 <script>
   const overlay = document.getElementById('oldies-overlay')

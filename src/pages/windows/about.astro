@@ -1,7 +1,4 @@
 ---
-import Base from '../layouts/Base.astro'
-import TableOfContents from '../components/molecules/TableOfContents.astro'
-
 const headings = [
   { text: 'Work experience', slug: 'work-experience' },
   { text: 'Education', slug: 'education' },
@@ -10,7 +7,7 @@ const headings = [
 ]
 ---
 
-<Base title="About — Tanya Lathion">
+<div class="about-wrap">
 
   <div class="case-layout">
     <div class="case-layout__main">
@@ -151,9 +148,6 @@ const headings = [
       </section>
 
     </div>
-    <aside class="case-layout__aside">
-      <TableOfContents headings={headings} />
-    </aside>
   </div>
 
-</Base>
+</div>
