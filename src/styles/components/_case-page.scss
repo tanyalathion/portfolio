@@ -1,25 +1,5 @@
 @use '../tokens' as *;
 
-.case-layout {
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 4rem;
-  align-items: start;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
-
-  &__aside {
-    position: sticky;
-    top: 4rem;
-
-    @media (max-width: 768px) {
-      display: none;
-    }
-  }
-}
-
 .case-back {
   font-size: 11px;
   font-family: $font-mono;

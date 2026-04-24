@@ -26,9 +26,6 @@ const headings = rawHeadings
     <span class="case-category">{item.data.category}</span>
   </div>
 
-  <div class="case-layout">
-    <div class="case-layout__main">
-
   <div class="case-hero">
     <h1>{item.data.title}</h1>
     <p class="case-subtitle">{item.data.subtitle}</p>
@@ -47,7 +44,6 @@ const headings = rawHeadings
       <span class="case-meta__label">Stack</span>
       <span>{item.data.stack.join(' · ')}</span>
     </div>
-  </div>
 
   <div class="case-challenge">
     <span class="case-meta__label">Challenge</span>
@@ -63,7 +59,6 @@ const headings = rawHeadings
 
   <div class="case-content">
     <Content />
-  </div>
   </div>
   </div>
 
