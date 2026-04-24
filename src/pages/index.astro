@@ -3,10 +3,10 @@ import Base from '../layouts/Base.astro'
 import Window from '../components/organisms/Window.astro'
 import DesktopIcon from '../components/atoms/DesktopIcon.astro'
 import { getCollection } from 'astro:content'
-import About from './windows/about.astro'
-import Contact from './windows/contact.astro'
-import Oldies from './windows/oldies.astro'
-import Case from './windows/case.astro'
+import Case from '../components/organisms/windows/Case.astro'
+import About from '../components/organisms/windows/About.astro'
+import Contact from '../components/organisms/windows/Contact.astro'
+import Oldies from '../components/organisms/windows/Oldies.astro'
 
 const workItems = (await getCollection('work'))
   .sort((a, b) => Number(b.data.year) - Number(a.data.year))
