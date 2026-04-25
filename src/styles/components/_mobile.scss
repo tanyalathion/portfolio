@@ -1,0 +1,145 @@
+@use '../tokens' as *;
+
+.is-mobile {
+  .desktop { display: none; }
+  .menubar { display: none; }
+  .mobile-shell { display: flex; }
+}
+
+.mobile-shell {
+  display: none;
+  
+  @media (max-width: 767px) {
+    display: flex;
+  }
+}
+
+.desktop,
+.menubar {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.mobile-statusbar {
+  height: 44px;
+  background: $black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  flex-shrink: 0;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  &__name {
+    font-family: $font-mono;
+    font-size: 11px;
+    font-weight: 500;
+    color: $white;
+  }
+
+  &__baseline {
+    font-family: $font-mono;
+    font-size: 9px;
+    color: rgba(255,255,255,0.5);
+  }
+
+  &__clock {
+    font-family: $font-mono;
+    font-size: 12px;
+    color: $white;
+  }
+}
+
+.mobile-grid {
+  flex: 1;
+  background: $black;
+  padding: 24px 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 8px;
+  align-content: start;
+
+  &--hidden {
+    display: none;
+  }
+}
+
+.mobile-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+  &__img {
+    width: 56px;
+    height: 56px;
+    background: $white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__label {
+    font-family: $font-mono;
+    font-size: 10px;
+    color: $white;
+    text-align: center;
+    line-height: 1.3;
+  }
+}
+
+.mobile-screen {
+  position: fixed;
+  inset: 0;
+  background: $white;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+
+  &--hidden {
+    display: none;
+  }
+
+  &__close {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    background: $black;
+    border: none;
+    color: $white;
+    font-size: 14px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 51;
+  }
+
+  &__content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+    padding-top: 3rem;
+  }
+}

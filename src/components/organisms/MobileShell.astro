@@ -1,0 +1,30 @@
+---
+---
+<div class="mobile-shell">
+  <div class="mobile-statusbar">
+    <span class="mobile-statusbar__left">
+      <span class="mobile-statusbar__name">Tanya Lathion</span>
+      <span class="mobile-statusbar__baseline">Design. Ship. Bridge.</span>
+    </span>
+    <span class="mobile-statusbar__clock" id="mobile-clock"></span>
+  </div>
+  <div class="mobile-grid" id="mobile-grid">
+    <slot name="icons" />
+  </div>
+  <div class="mobile-screens" id="mobile-screens">
+    <slot name="screens" />
+  </div>
+</div>
+
+<script>
+  function updateClock() {
+    const clock = document.getElementById('mobile-clock')
+    if (clock) {
+      clock.textContent = new Date().toLocaleTimeString('fr-CH', {
+        hour: '2-digit', minute: '2-digit'
+      })
+    }
+  }
+  updateClock()
+  setInterval(updateClock, 1000)
+</script>

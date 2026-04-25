@@ -16,10 +16,23 @@ const { title = 'Tanya Lathion' } = Astro.props
     <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon-tl.svg" />
   </head>
-  <body>
+  <body id="app-body">
     <MenuBar />
     <div class="desktop">
       <slot />
     </div>
   </body>
 </html>
+
+<script>
+  function checkDevice() {
+    if (window.innerWidth < 768) {
+      document.getElementById('app-body')?.classList.add('is-mobile')
+    } else {
+      document.getElementById('app-body')?.classList.remove('is-mobile')
+    }
+  }
+  checkDevice()
+  window.addEventListener('resize', checkDevice)
+</script>
+

@@ -1,0 +1,22 @@
+---
+interface Props {
+  id: string
+}
+const { id } = Astro.props
+---
+
+<div class="mobile-screen mobile-screen--hidden" id={id}>
+  <button class="mobile-screen__close" data-screen={id}>✕</button>
+  <div class="mobile-screen__content">
+    <slot />
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.mobile-screen__close').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.mobile-screen').forEach(s => s.classList.add('mobile-screen--hidden'))
+      document.getElementById('mobile-grid')?.classList.remove('mobile-grid--hidden')
+    })
+  })
+</script>
