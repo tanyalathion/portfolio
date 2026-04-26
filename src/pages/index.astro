@@ -32,14 +32,14 @@ console.log(workItems.map(i => ({ id: i.id, icon: iconMap[i.id] })))
       <DesktopIcon
         label={item.data.title}
         windowId={`win-${item.id}`}
-        icon="document"
+        icon="desktop-computer"
       />
     ))}
   </div>
   <div class="desktop-icons__row">
-    <DesktopIcon label="About" windowId="win-about" icon="folder" />
-    <DesktopIcon label="Contact" windowId="win-contact" icon="folder" />
-    <DesktopIcon label="Oldies" windowId="win-oldies" icon="folder" />
+    <DesktopIcon label="About" windowId="win-about" icon="desktop-folder" />
+    <DesktopIcon label="Contact" windowId="win-contact" icon="desktop-folder" />
+    <DesktopIcon label="Oldies" windowId="win-oldies" icon="desktop-folder" />
   </div>
 </div>
 
