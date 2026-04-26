@@ -13,6 +13,15 @@ import MobileScreen from '../components/atoms/MobileScreen.astro'
 
 const workItems = (await getCollection('work'))
   .sort((a, b) => Number(b.data.year) - Number(a.data.year))
+
+const iconMap: Record<string, string> = {
+  'orcid-api': 'api-case',
+  'university-uirefont': 'ui-case',
+  'booking-funnel': 'booking-case',
+  'organisation-app': 'app-case',
+  'insurance-contact': 'contact-case',
+}
+console.log(workItems.map(i => ({ id: i.id, icon: iconMap[i.id] })))
 ---
 
 <Base title="Tanya Lathion">
@@ -56,9 +65,13 @@ const workItems = (await getCollection('work'))
   <MobileShell>
     <Fragment slot="icons">
       {workItems.map(item => (
-        <MobileIcon label={item.data.title} screenId={`mob-${item.id}`} icon="document" />
+      <MobileIcon
+        label={item.data.title}
+        screenId={`mob-${item.id}`}
+        icon={iconMap[item.id] ?? 'api-case'}
+      />
       ))}
-      <MobileIcon label="Oldies" screenId="mob-oldies" icon="photo" />
+<MobileIcon label="Oldies" screenId="mob-oldies" icon="oldies" />
     </Fragment>
 
     <Fragment slot="screens">
@@ -79,17 +92,17 @@ const workItems = (await getCollection('work'))
     </Fragment>
 
     <Fragment slot="dock">
-      <MobileIcon label="About" screenId="mob-about" icon="person" />
-      <MobileIcon label="Contact" screenId="mob-contact" icon="mail" />
+      <MobileIcon label="About" screenId="mob-about" icon="about" />
+      <MobileIcon label="Contact" screenId="mob-contact" icon="contact" />
       <a href="https://github.com/tanyalathion" target="_blank" class="mobile-dock-link">
         <div class="mobile-icon__img">
-          <iconify-icon icon="pixelarticons:github" width="44"></iconify-icon>
+          <img src="/icons/github.svg" alt="GitHub" />
         </div>
         <span class="mobile-icon__label">GitHub</span>
       </a>
       <a href="https://linkedin.com/in/tanya-lathion" target="_blank" class="mobile-dock-link">
         <div class="mobile-icon__img">
-          <iconify-icon icon="pixelarticons:link" width="44"></iconify-icon>
+          <img src="/icons/linkedin.svg" alt="LinkedIn" />
         </div>
         <span class="mobile-icon__label">LinkedIn</span>
       </a>

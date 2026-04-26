@@ -2,23 +2,15 @@
 interface Props {
   label: string
   screenId: string
-  icon?: 'document' | 'folder' | 'person' | 'mail' | 'photo'
+  icon: string
 }
 
-const { label, screenId, icon = 'document' } = Astro.props
-
-const iconMap = {
-  document: 'pixelarticons:file',
-  folder: 'pixelarticons:folder',
-  person: 'pixelarticons:contact',
-  mail: 'pixelarticons:mail',
-  photo: 'pixelarticons:image',
-}
+const { label, screenId, icon } = Astro.props
 ---
 
 <button class="mobile-icon" data-screen={screenId}>
   <div class="mobile-icon__img">
-    <iconify-icon icon={iconMap[icon]} width="48"></iconify-icon>
+    <img src={`/icons/${icon}.svg`} alt={label} />
   </div>
   <span class="mobile-icon__label">{label}</span>
 </button>
