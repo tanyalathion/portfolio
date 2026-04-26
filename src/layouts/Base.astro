@@ -17,11 +17,12 @@ const { title = 'Tanya Lathion' } = Astro.props
     <link rel="icon" type="image/svg+xml" href="/favicon-tl.svg" />
   </head>
   <body id="app-body">
-    <MenuBar />
-    <div class="desktop">
-      <slot />
-    </div>
-  </body>
+  <MenuBar />
+  <div class="desktop">
+    <slot />
+  </div>
+  <slot name="mobile" />
+</body>
 </html>
 
 <script>

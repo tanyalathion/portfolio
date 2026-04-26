@@ -8,6 +8,13 @@
 
 .mobile-shell {
   display: none;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  background: $bg-mac;
+  position: fixed;
+  inset: 0;
+  z-index: 500;
   
   @media (max-width: 767px) {
     display: flex;

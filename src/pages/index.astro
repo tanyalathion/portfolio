@@ -52,30 +52,32 @@ const workItems = (await getCollection('work'))
   <Oldies />
 </Window>
 
-<MobileShell>
-  <Fragment slot="icons">
-    {workItems.map(item => (
-      <MobileIcon label={item.data.title} screenId={`mob-${item.id}`} icon="document" />
-    ))}
-    <MobileIcon label="About" screenId="mob-about" icon="person" />
-    <MobileIcon label="Oldies" screenId="mob-oldies" icon="photo" />
-    <MobileIcon label="Contact" screenId="mob-contact" icon="mail" />
-  </Fragment>
-  <Fragment slot="screens">
-    {workItems.map(item => (
-      <MobileScreen id={`mob-${item.id}`}>
-        <Case item={item} />
+<Fragment slot="mobile">
+  <MobileShell>
+    <Fragment slot="icons">
+      {workItems.map(item => (
+        <MobileIcon label={item.data.title} screenId={`mob-${item.id}`} icon="document" />
+      ))}
+      <MobileIcon label="About" screenId="mob-about" icon="person" />
+      <MobileIcon label="Oldies" screenId="mob-oldies" icon="photo" />
+      <MobileIcon label="Contact" screenId="mob-contact" icon="mail" />
+    </Fragment>
+    <Fragment slot="screens">
+      {workItems.map(item => (
+        <MobileScreen id={`mob-${item.id}`}>
+          <Case item={item} />
+        </MobileScreen>
+      ))}
+      <MobileScreen id="mob-about">
+        <About />
       </MobileScreen>
-    ))}
-    <MobileScreen id="mob-about">
-      <About />
-    </MobileScreen>
-    <MobileScreen id="mob-oldies">
-      <Oldies />
-    </MobileScreen>
-    <MobileScreen id="mob-contact">
-      <Contact />
-    </MobileScreen>
-  </Fragment>
-</MobileShell>
+      <MobileScreen id="mob-oldies">
+        <Oldies />
+      </MobileScreen>
+      <MobileScreen id="mob-contact">
+        <Contact />
+      </MobileScreen>
+    </Fragment>
+  </MobileShell>
+</Fragment>
 </Base>
