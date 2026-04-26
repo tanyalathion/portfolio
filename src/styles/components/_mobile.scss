@@ -11,6 +11,7 @@
   flex-direction: column;
   width: 100vw;
   min-height: 100vh;
+  min-height: 100dvh;
   background: $bg-mac;
   position: fixed;
   inset: 0;
@@ -120,6 +121,8 @@
 
 .mobile-screen {
   position: fixed;
+  min-height: 100vh;
+  min-height: 100dvh;
   inset: 0;
   background: $bg-mac;
   z-index: 50;
@@ -174,7 +177,7 @@
   text-decoration: none;
 
   .mobile-icon__label {
-    color: $white;
+    color: $black;
     font-size: 10px;
     font-family: $font-mono;
   }
