@@ -58,10 +58,9 @@ const workItems = (await getCollection('work'))
       {workItems.map(item => (
         <MobileIcon label={item.data.title} screenId={`mob-${item.id}`} icon="document" />
       ))}
-      <MobileIcon label="About" screenId="mob-about" icon="person" />
       <MobileIcon label="Oldies" screenId="mob-oldies" icon="photo" />
-      <MobileIcon label="Contact" screenId="mob-contact" icon="mail" />
     </Fragment>
+
     <Fragment slot="screens">
       {workItems.map(item => (
         <MobileScreen id={`mob-${item.id}`}>
@@ -78,6 +77,24 @@ const workItems = (await getCollection('work'))
         <Contact />
       </MobileScreen>
     </Fragment>
+
+    <Fragment slot="dock">
+      <MobileIcon label="About" screenId="mob-about" icon="person" />
+      <MobileIcon label="Contact" screenId="mob-contact" icon="mail" />
+      <a href="https://github.com/tanyalathion" target="_blank" class="mobile-dock-link">
+        <div class="mobile-icon__img">
+          <iconify-icon icon="pixelarticons:github" width="44"></iconify-icon>
+        </div>
+        <span class="mobile-icon__label">GitHub</span>
+      </a>
+      <a href="https://linkedin.com/in/tanya-lathion" target="_blank" class="mobile-dock-link">
+        <div class="mobile-icon__img">
+          <iconify-icon icon="pixelarticons:link" width="44"></iconify-icon>
+        </div>
+        <span class="mobile-icon__label">LinkedIn</span>
+      </a>
+    </Fragment>
+
   </MobileShell>
 </Fragment>
 </Base>
