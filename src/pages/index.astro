@@ -10,6 +10,7 @@ import Oldies from '../components/organisms/windows/Oldies.astro'
 import MobileShell from '../components/organisms/MobileShell.astro'
 import MobileIcon from '../components/atoms/MobileIcon.astro'
 import MobileScreen from '../components/atoms/MobileScreen.astro'
+import Overlay from '../components/atoms/Overlay.astro'
 
 const workItems = (await getCollection('work'))
   .sort((a, b) => Number(b.data.year) - Number(a.data.year))
@@ -42,6 +43,8 @@ const iconMap: Record<string, string> = {
     <DesktopIcon label="Oldies" windowId="win-oldies" icon="desktop-folder" />
   </div>
 </div>
+
+<Overlay />
 
   {workItems.map((item, i) => (
   <Window title={item.data.title} id={`win-${item.id}`} x={120 + i * 30} y={60 + i * 30} width={640} hidden={true}>

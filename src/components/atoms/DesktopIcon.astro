@@ -20,8 +20,16 @@ const { label, windowId, icon } = Astro.props
     icon.addEventListener('click', () => {
       const windowId = icon.getAttribute('data-window')
       const win = document.getElementById(windowId!)
-      win?.classList.remove('window--hidden')
-      win!.style.zIndex = '100'
+      if (!win) return
+      win.classList.remove('window--hidden')
+      win.style.zIndex = '100'
+
+      const menubarHeight = 23
+      const availableHeight = window.innerHeight - menubarHeight
+      win.style.left = `${Math.max(0, (window.innerWidth - win.offsetWidth) / 2)}px`
+      win.style.top = `${menubarHeight + Math.max(0, (availableHeight - win.offsetHeight) / 2)}px`
+
+      document.getElementById('desktop-overlay')?.classList.remove('overlay--hidden')
     })
   })
 </script>

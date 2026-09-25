@@ -1,0 +1,12 @@
+@use '../tokens' as *;
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba($gray-mid, 0.6);
+
+  &--hidden {
+    display: none;
+  }
+}

@@ -14,7 +14,7 @@ const { title, id, x = 100, y = 60, width = 600, hidden = false } = Astro.props
 <div
   class={`window${hidden ? ' window--hidden' : ''}`}
   id={id}
-  style={`left: ${x}px; top: ${y}px; width: ${width}px;`}
+  style={`left: ${x}px; top: ${y}px; width: ${width + 48}px;`}
 >
   <div class="window__titlebar" data-window={id}>
     <button class="window__close" data-close={id}></button>
@@ -61,7 +61,10 @@ const { title, id, x = 100, y = 60, width = 600, hidden = false } = Astro.props
     const windowId = btn.getAttribute('data-close')
     btn.addEventListener('click', () => {
       const win = document.getElementById(windowId!)
-      win?.classList.toggle('window--hidden')
+      win?.classList.add('window--hidden')
+      if (!document.querySelector('.window:not(.window--hidden)')) {
+      document.getElementById('desktop-overlay')?.classList.add('overlay--hidden')
+      }
     })
   })
 </script>
