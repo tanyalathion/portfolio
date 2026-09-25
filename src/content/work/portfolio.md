@@ -28,21 +28,21 @@ A recurring trap in this industry: judging a designer's seniority by their visua
 
 ## The Decisions
 
-**🖇️ Mac OS architecture - opening the doors of my own computer**
+**🖇️ Mac OS architecture: opening the doors of my own computer**
 
 I didn't want a portfolio that presents work from behind a counter. I wanted one that opens like my own personal computer (folders, apps, a desktop) so visiting it feels closer to being let into my digital intimacy than to browsing a catalog. The metaphor isn't decorative: it changes the *relationship* the visitor has with the content, from "being shown things" to "being let in."
 
-**🕹️ Retro style — a statement of seniority and digital culture**
+**🕹️ Retro style: a statement of seniority and digital culture**
 
-The pixel aesthetic references an era of computing I've lived through, not one I'm imitating from a trend report. It's a way of signaling seniority and a genuine digital culture — not through a résumé date, but through a visual fluency that can't be faked or prompted into existence. You either recognize this interface because you lived it, or you don't, and either way it tells you something true about me.
+The pixel aesthetic references an era of computing I've lived through, not one I'm imitating from a trend report. It's a way of signaling seniority and a genuine digital culture, not through a résumé date but through a visual fluency that can't be faked or prompted into existence. You either recognize this interface because you lived it, or you don't, and either way it tells you something true about me.
 
-**📱 Different interfaces for mobile and desktop — concept above pixels**
+**📱 Different interfaces for mobile and desktop: concept above pixels**
 
-The mobile and desktop versions aren't the same design resized — they're two different interpretations of the same concept, each adapted to serve the experience proper to its device rather than preserving a fixed graphic layout. This was a deliberate stance: graphic production isn't my job, concept is. The pixels can change; the idea underneath — the desktop-as-portfolio metaphor — has to hold regardless of the support.
+The mobile and desktop versions aren't the same design resized. They're two different interpretations of the same concept, each adapted to serve the experience proper to its device rather than preserving a fixed graphic layout. This was a deliberate stance: graphic production isn't my job, concept is. The pixels can change; the idea underneath (the desktop-as-portfolio metaphor) has to hold regardless of the support.
 
-**🧠 A deliberately ambitious concept — doing my own job, refusing to delegate the thinking**
+**🧠 A deliberately ambitious concept: doing my own job, refusing to delegate the thinking**
 
-In a year when a portfolio's layout, copy, and even case studies can be AI-generated in minutes, the one thing that can't be outsourced is the concept itself — the decision of *what this object should be and why*. Pushing the concept this far, rather than settling for a safe, well-proportioned template, was a way of doing my actual job on my own portfolio: not decorating, but conceiving.
+In a year when a portfolio's layout, copy, and even case studies can be AI-generated in minutes, the one thing that can't be outsourced is the concept itself, the decision of *what this object should be and why*. Pushing the concept this far, rather than settling for a safe, well-proportioned template, was a way of doing my actual job on my own portfolio: not decorating, but conceiving.
 
 ---
 
@@ -67,8 +67,8 @@ Turkle's foundational study on the personal computer as psychological object, no
 - [ChicagoFLF by Robin Casady →](https://online-fonts.com/fonts/chicagoflf)
 
 **Figma resources**
-- [macOS Classic by Brett Anderson →] (https://www.figma.com/community/file/907684770824957775/macos-classic)
-- [Huge Pixel Icons Set by Streamline →] (https://www.figma.com/community/file/1196864707579677521/1-300-free-pixel-icons-vector-pixel-icons-svg)
+- [macOS Classic by Brett Anderson →](https://www.figma.com/community/file/907684770824957775/macos-classic)
+- [Huge Pixel Icons Set by Streamline →](https://www.figma.com/community/file/1196864707579677521/1-300-free-pixel-icons-vector-pixel-icons-svg)
 
 **Code**
 - [Repo GitHub →](https://github.com/[ton-repo])
