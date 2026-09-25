@@ -4,7 +4,7 @@
 <header class="menubar">
   
   <div class="menubar__left">
-  <button class="menubar__apple">
+  <button class="menubar__apple" data-window="win-welcome">
     <img src="/favicon-tl.svg" alt="TL" class="menubar__logo" />
   </button>
   <div class="menubar__title">
@@ -21,6 +21,11 @@
 </header>
 
 <script>
+  import { openWindow } from '../../scripts/window'
+
+  document.querySelector('.menubar__apple')?.addEventListener('click', e => {
+    openWindow((e.currentTarget as HTMLElement).dataset.window!)
+  })
   function updateClock() {
     const clock = document.getElementById('menubar-clock')
     if (clock) {

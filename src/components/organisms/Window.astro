@@ -28,15 +28,9 @@ const { title, id, x = 100, y = 60, width = 600, hidden = false, open = false } 
 </div>
 
 <script>
+  import { openWindow } from '../../scripts/window'
 
-  document.querySelectorAll<HTMLElement>('.window[data-open]').forEach(win => {
-    const menubarHeight = 23
-    const availableHeight = window.innerHeight - menubarHeight
-    win.style.left = `${Math.max(0, (window.innerWidth - win.offsetWidth) / 2)}px`
-    win.style.top = `${menubarHeight + Math.max(0, (availableHeight - win.offsetHeight) / 2)}px`
-    win.style.zIndex = '100'
-    document.getElementById('desktop-overlay')?.classList.remove('overlay--hidden')
-  })
+  document.querySelectorAll('.window[data-open]').forEach(win => openWindow(win.id))
   document.querySelectorAll('.window__titlebar').forEach(bar => {
     const windowId = bar.getAttribute('data-window')
     const win = document.getElementById(windowId!)
