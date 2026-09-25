@@ -1,1 +1,12 @@
 <div class="overlay overlay--hidden" id="desktop-overlay"></div>
+
+<script>
+  const overlay = document.getElementById('desktop-overlay')
+
+  overlay?.addEventListener('click', () => {
+    document.querySelectorAll('.window:not(.window--hidden)').forEach(win => {
+      win.classList.add('window--hidden')
+    })
+    overlay.classList.add('overlay--hidden')
+  })
+</script>
