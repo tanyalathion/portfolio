@@ -109,6 +109,8 @@ Information architecture and the funnel prototype were tested with 3 users with 
 
 The mountain and vacation world came through, but the site felt "institutional" or "technological", driven by the navy blue. In the design system, that color was meant for B2B communication only: coherent for a product run by an investment fund, but associated with seriousness, technology or the sea when projecting a mountain holiday. I recommended switching to SWISSPEAK RESORTS green for the navigation bar and footer.
 
+---
+
 ## 💡 Main learning
 
 **UX fails cost money.** If preference is the company's battle horse 🐴 in a competitive market, user experience is its spearhead ⚔️. When prospecting and selling online, sales depend on the platform's experience.
@@ -119,6 +121,8 @@ Prioritization still has to weigh three factors:
 - 📌 What technical effort is required?
 
 Design must be contextualized: the right solution brings the most value to users and business performance for the least tech effort.
+
+---
 
 ## 📚 Related literature
 
