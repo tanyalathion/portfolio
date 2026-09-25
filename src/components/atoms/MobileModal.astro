@@ -1,0 +1,26 @@
+---
+interface Props {
+  id: string
+}
+const { id } = Astro.props
+---
+
+<div class="mobile-modal" id={id}>
+  <div class="mobile-modal__dialog">
+    <button class="mobile-modal__close" data-modal={id}>✕</button>
+    <div class="mobile-modal__content">
+      <slot />
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.mobile-modal').forEach(modal => {
+    modal.addEventListener('click', (e: Event) => {
+      const target = e.target as HTMLElement
+      if (target === modal || target.closest('.mobile-modal__close')) {
+        modal.classList.add('mobile-modal--hidden')
+      }
+    })
+  })
+</script>

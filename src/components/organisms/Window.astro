@@ -6,14 +6,16 @@ interface Props {
   y?: number
   width?: number
   hidden?: boolean
+  open?: boolean
 }
 
-const { title, id, x = 100, y = 60, width = 600, hidden = false } = Astro.props
+const { title, id, x = 100, y = 60, width = 600, hidden = false, open = false } = Astro.props
 ---
 
 <div
   class={`window${hidden ? ' window--hidden' : ''}`}
   id={id}
+  data-open={open || undefined}
   style={`left: ${x}px; top: ${y}px; width: ${width + 48}px;`}
 >
   <div class="window__titlebar" data-window={id}>
@@ -26,6 +28,15 @@ const { title, id, x = 100, y = 60, width = 600, hidden = false } = Astro.props
 </div>
 
 <script>
+
+  document.querySelectorAll<HTMLElement>('.window[data-open]').forEach(win => {
+    const menubarHeight = 23
+    const availableHeight = window.innerHeight - menubarHeight
+    win.style.left = `${Math.max(0, (window.innerWidth - win.offsetWidth) / 2)}px`
+    win.style.top = `${menubarHeight + Math.max(0, (availableHeight - win.offsetHeight) / 2)}px`
+    win.style.zIndex = '100'
+    document.getElementById('desktop-overlay')?.classList.remove('overlay--hidden')
+  })
   document.querySelectorAll('.window__titlebar').forEach(bar => {
     const windowId = bar.getAttribute('data-window')
     const win = document.getElementById(windowId!)

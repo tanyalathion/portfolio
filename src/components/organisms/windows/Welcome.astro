@@ -1,0 +1,15 @@
+---
+interface Props {
+  device?: 'desktop' | 'mobile'
+}
+const { device = 'desktop' } = Astro.props
+---
+<div class="welcome-wrap">
+  <span class="welcome-label">Hello</span>
+  <h1>Welcome to my portfolio</h1>
+  {device === 'desktop' ? (
+    <p class="about-bio">You're now inside my OS. Make yourself at home: click the icons on the desktop to open my projects, drag the windows around and browse through my work at your own pace.</p>
+  ) : (
+    <p class="about-bio">You're now inside my phone. Make yourself at home: tap the icons on the home screen to open my projects and browse through my work at your own pace.</p>
+  )}
+</div>

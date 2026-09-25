@@ -7,9 +7,11 @@ import Case from '../components/organisms/windows/Case.astro'
 import About from '../components/organisms/windows/About.astro'
 import Contact from '../components/organisms/windows/Contact.astro'
 import Oldies from '../components/organisms/windows/Oldies.astro'
+import Welcome from '../components/organisms/windows/Welcome.astro'
 import MobileShell from '../components/organisms/MobileShell.astro'
 import MobileIcon from '../components/atoms/MobileIcon.astro'
 import MobileScreen from '../components/atoms/MobileScreen.astro'
+import MobileModal from '../components/atoms/MobileModal.astro'
 import Overlay from '../components/atoms/Overlay.astro'
 
 const workItems = (await getCollection('work'))
@@ -64,6 +66,10 @@ const iconMap: Record<string, string> = {
   <Oldies />
 </Window>
 
+<Window title="Welcome" id="win-welcome" width={480} open={true}>
+  <Welcome />
+</Window>
+
 <Fragment slot="mobile">
   <MobileShell>
     <Fragment slot="icons">
@@ -111,6 +117,12 @@ const iconMap: Record<string, string> = {
       </a>
     </Fragment>
 
+    <Fragment slot="modal">
+      <MobileModal id="mob-welcome">
+        <Welcome device="mobile" />
+      </MobileModal>
+    </Fragment>
+    
   </MobileShell>
 </Fragment>
 </Base>
