@@ -9,7 +9,7 @@ Built with 🧑‍🚀 [Astro](https://astro.build), SCSS 🪐 atomic architectu
 
 - **Framework** 🧱 Astro
 - **Styles** 🎨 SCSS, atomic design (atoms / molecules / organisms)
-- **Fonts** 🪶 Geist Mono (titles, labels) + system-ui (body)
+- **Fonts** 🪶 ChicagoFLF (titles, labels) + system-ui (body)
 - **Deployment** 🚀 TBD
 
 ## Structure

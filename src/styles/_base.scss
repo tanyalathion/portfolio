@@ -1,6 +1,12 @@
 @use 'tokens' as *;
 
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap');
+@font-face {
+  font-family: 'ChicagoFLF';
+  src: url('../assets/ChicagoFLF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
   font-family: $font-body;
@@ -13,7 +19,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: $font-mono;
+  font-family: $font-title;
 }
 
 a {

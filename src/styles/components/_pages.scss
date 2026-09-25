@@ -24,7 +24,7 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: $gray-mid;
-  font-family: $font-mono;
+  font-family: $font-title;
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -60,7 +60,7 @@
     border: $border;
     border-radius: 4px;
     font-weight: 500;
-    font-family: $font-mono;
+    font-family: $font-title;
     margin: 2rem 0 1rem;
     color: $black;
     background-color: $bg-alt;
@@ -87,7 +87,7 @@
 
   &__year {
     font-size: 11px;
-    font-family: $font-mono;
+    font-family: $font-title;
     color: $gray-mid;
     padding-top: 2px;
   }
@@ -123,7 +123,7 @@
   border-radius: $radius;
   box-shadow: $shadow;
   background: $white;
-  font-family: $font-mono;
+  font-family: $font-title;
   font-size: 13px;
   font-weight: 500;
   color: $black;
@@ -145,7 +145,7 @@
   display: flex;
   gap: 1.5rem;
   font-size: 12px;
-  font-family: $font-mono;
+  font-family: $font-title;
 
   a {
     color: $gray-mid;
@@ -200,7 +200,7 @@
   }
 
   &__name {
-    font-family: $font-mono;
+    font-family: $font-title;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.05em;
@@ -208,7 +208,7 @@
 
   &__year {
     font-size: 11px;
-    font-family: $font-mono;
+    font-family: $font-title;
     color: $gray-mid;
   }
 
