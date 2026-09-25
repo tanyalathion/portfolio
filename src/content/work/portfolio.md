@@ -77,4 +77,4 @@ Turkle's foundational study on the personal computer as psychological object, no
 - [Huge Pixel Icons Set by Streamline →](https://www.figma.com/community/file/1196864707579677521/1-300-free-pixel-icons-vector-pixel-icons-svg)
 
 **Code**
-- [Repo GitHub →](https://github.com/[ton-repo])
+- [Repo GitHub →](https://github.com/tanyalathion/portfolio)
