@@ -40,6 +40,12 @@ The pixel aesthetic references an era of computing I've lived through, not one I
 
 The mobile and desktop versions aren't the same design resized. They're two different interpretations of the same concept, each adapted to serve the experience proper to its device rather than preserving a fixed graphic layout. This was a deliberate stance: graphic production isn't my job, concept is. The pixels can change; the idea underneath (the desktop-as-portfolio metaphor) has to hold regardless of the support.
 
+![Desktop Portfolio](/images/work/portfolio-desktop.png)
+_Desktop OS-as-interface portfolio_
+
+![Mobile Portfolio](/images/work/portfolio-mobile.png)
+_Mobile iOS-as-interface portfolio_
+
 **🧠 A deliberately ambitious concept: doing my own job, refusing to delegate the thinking**
 
 In a year when a portfolio's layout, copy, and even case studies can be AI-generated in minutes, the one thing that can't be outsourced is the concept itself, the decision of *what this object should be and why*. Pushing the concept this far, rather than settling for a safe, well-proportioned template, was a way of doing my actual job on my own portfolio: not decorating, but conceiving.

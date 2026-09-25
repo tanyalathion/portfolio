@@ -63,22 +63,22 @@ Working on technical debt, refactoring and improving code scalability is never a
 
 ## 📚 Related literature
 
-⚛️ **Atomic Design**
+**Atomic Design**
 Frost, B. (2016). *Atomic Design*. Brad Frost Web.
 👉 The atoms → molecules → organisms model used both to audit the CSS and to structure the redesign.
 
-🧩 **Design systems**
+**Design systems**
 Kholmatova, A. (2017). *Design Systems: A Practical Guide to Creating Design Languages for Digital Products*. Smashing Magazine.
 👉 Shared naming between design and code as the foundation of a living design language, which is the logic behind aligning the Figma library with the CSS classes.
 
-🔧 **Technical debt**
+**Technical debt**
 Kruchten, P., Nord, R. L., & Ozkaya, I. (2012). Technical debt: From metaphor to theory and practice. *IEEE Software, 29*(6), 18-21.
 👉 Frames the upfront work on variables and refactoring as paying down debt, which is what made a two-week turnaround possible.
 
-👀 **First impressions and aesthetics**
+**First impressions and aesthetics**
 Lindgaard, G., Fernandes, G., Dudek, C., & Brown, J. (2006). Attention web designers: You have 50 milliseconds to make a good first impression! *Behaviour & Information Technology, 25*(2), 115-126.
 👉 Visual appeal is judged almost instantly, which makes a purely graphic redesign a plausible lever on bounce rate.
 
-🫥 **Invisible work**
+**Invisible work**
 Star, S. L., & Strauss, A. (1999). Layers of silence, arenas of voice: The ecology of visible and invisible work. *Computer Supported Cooperative Work, 8*(1-2), 9-30.
 👉 The classic CSCW reference on work that goes unseen until it's missing, directly echoing the main learning.
