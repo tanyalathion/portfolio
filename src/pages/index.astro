@@ -16,11 +16,11 @@ const workItems = (await getCollection('work'))
   .sort((a, b) => Number(b.data.year) - Number(a.data.year))
 
 const iconMap: Record<string, string> = {
+  'portfolio': 'contact-case',
   'orcid-api': 'api-case',
   'university-uirefont': 'ui-case',
   'booking-funnel': 'booking-case',
   'organisation-app': 'app-case',
-  'insurance-contact': 'contact-case',
 }
 
 ---
