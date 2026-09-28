@@ -30,6 +30,9 @@ ORCID is the global reference identifier for researchers. The university website
 
 No page existed to browse the full scientific output of UniDistance Suisse in one place.
 
+![Database design screenshot](/images/work/orcidapi-database.png)
+_Design of the database for research and its relationships_
+
 ## Research & discovery
 
 A 6-month MVP to learn before building.
