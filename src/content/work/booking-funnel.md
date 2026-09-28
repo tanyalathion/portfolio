@@ -20,6 +20,9 @@ results: "Redesigned booking funnel replacing existing pop-out with four distinc
 
 🚀 **Approach:** User-centered design, with a focus on UX research and minimizing development.
 
+![Booking main screen Swisspeak Resorts](/images/work/spr-mockup.png)
+_Swisspeak Resorts: Booking funnel first step_
+
 ## Methodology
 
 I used the design thinking approach so the website could meet SWISSPEAK RESORTS' business objectives by serving its users as well as possible, through improvements matched to the technical effort the company could make.

@@ -20,8 +20,8 @@ results: "Bounce rate reduced by 5% immediately after go-live. Engagement up 20%
 
 **Approach:** Atomic Design + SCSS variables & mixins + Figma UI Kit.
 
-![Before after UniDistance Website](/images/work/funid-ui-beforeafter.png)
-_UniDistance Suisse: Two weeks UI Redesign_
+![Mockup UniDistance Website](/images/work/funid-ui-mockups.png)
+_UniDistance Suisse: New UI_
 
 ## Methodology
 
@@ -44,8 +44,8 @@ The bounce rate dropped by 5% immediately after go-live, and engagement increase
 
 The site places greater emphasis on content, while also highlighting the need to improve it. Retention has increased, as has the number of pages viewed, indicating that users find it easier to read and search for information.
 
-![Mockup UniDistance Website](/images/work/funid-ui-mockups.png)
-_UniDistance Suisse: New UI_
+![Before after UniDistance Website](/images/work/funid-ui-beforeafter.png)
+_UniDistance Suisse: Two weeks UI Redesign_
 
 ---
 
