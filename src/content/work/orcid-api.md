@@ -9,7 +9,7 @@ tags: ["API Integration", "UI Design", "Database design"]
 challenge: "Automate the synchronization of researcher publications between ORCID and the institutional TYPO3 website, eliminating manual updates while enriching researcher profiles with Open Science metadata."
 results: "Full automation of publication sync. Researchers manage their profile from a single source of truth. Open Science badges deployed across all researcher profile pages."
 ---
-![Publications' index page screenshot](/images/work/desktop.png)
+![Publications' index page screenshot](/images/work/orcidapi-mockup.png)
 _A new publications' index to showcase scientific excellence of the institution_
 
 ## The Problem
@@ -30,8 +30,8 @@ ORCID is the global reference identifier for researchers. The university website
 
 No page existed to browse the full scientific output of UniDistance Suisse in one place.
 
-![Database design screenshot](/images/work/orcidapi-database.png)
-_Design of the database for research and its relationships_
+![Userflow for publications management](/images/work/orcidapi-userflow.png)
+_Design of the publications management user flow_
 
 ## Research & discovery
 
@@ -61,6 +61,8 @@ Data base design • Business logic & sync rules • Enriched fields definition 
 ### Product Manager
 Requirements gathering & prioritisation • Roadmap set up • Functional specs generation • Backlog management
 
+![Database design screenshot](/images/work/orcidapi-database.png)
+_Design of the database for research and its relationships_
 
 ## Main learning
 
