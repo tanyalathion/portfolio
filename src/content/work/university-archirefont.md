@@ -94,3 +94,11 @@ Spencer, D. (2009). *Card Sorting: Designing Usable Categories*. Rosenfeld Media
 **Content strategy**
 Halvorson, K., & Rach, M. (2012). *Content Strategy for the Web* (2nd ed.). New Riders.
 👉 Frames content as a system requiring governance and process, the logic behind the writing guide and its validation workflow.
+
+---
+
+## 🙏 Credits
+ 
+UX strategy and information architecture: co-created by [:ratio](https://8ratio.ch), UX agency in Lausanne, and Tanya Lathion.
+Workshop facilitation, tree testing and web writing guide: [:ratio](https://8ratio.ch).
+Product ownership on the UniDistance Suisse side: Tanya Lathion.
