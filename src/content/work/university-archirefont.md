@@ -20,8 +20,8 @@ results: "Shared stakeholder vision before the first mockup, a navigation valida
 
 🚀 **Approach:** Stakeholder alignment first, then content audit, architecture exploration and validation with real visitors. Carried out with the UX agency 8ratio, with me as Product Owner on the institute side.
 
-<!-- ![Sitemap UniDistance](/images/work/funid-ia-sitemap.png)
-_UniDistance Suisse: New site architecture_ -->
+![Sitemap UniDistance](/images/work/funid-ia-board.png)
+_UniDistance Suisse: New site architecture_
 
 ## Methodology
 
@@ -56,11 +56,15 @@ _UniDistance Suisse: Tree test results_ -->
 
 🌍 **Multilingual:** The guide accounts for the specifics of a trilingual university institute (French, German, English) and the communication needs of each audience. Consistency doesn't mean uniformity.
 
+
 ## 🚀 Implementation: from strategy to migration
 
 With this strategy in hand, the communication team started migrating content to the new structure.
 
 But when a concept meets implementation, reality always pushes back: unanticipated questions, things to validate with visitors, key pages to bring to life. We set up an ongoing consulting subscription with the agency so the team can get expert input at its own pace, and carry the project through without delays or surprises.
+
+![Sitemap UniDistance](/images/work/funid-ia-sitemap.png)
+_UniDistance Suisse: New site architecture_
 
 ---
 
