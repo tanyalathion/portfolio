@@ -6,7 +6,7 @@ year: "2026"
 roles: ["Product Owner", "UX Strategist", "Content Strategist"]
 stack: ["TYPO3"]
 tags: ["Information Architecture", "UX Research", "Content Strategy", "Multilingual"]
-challenge: "Lay the foundations of a website that supports the institute's ambitions, as UniDistance Suisse prepares its accreditation as a university."
+challenge: "Lay the foundations of a website that supports Nomen University's ambitions, as the institute prepares its accreditation as a university."
 results: "Shared stakeholder vision before the first mockup, a navigation validated by 100 visitors through tree testing, and a trilingual web writing guide for all contributors."
 ---
 
@@ -14,14 +14,14 @@ results: "Shared stakeholder vision before the first mockup, a navigation valida
 
 🎯 **Target:** Prospective students looking for flexible studies, researchers joining a recognized institution, plus the general public and media following the accreditation process.
 
-😖 **Pain:** The existing website mirrored the internal org chart. How online studies work was barely visible, academic research was underrepresented, and the three language versions didn't always say the same things in the same way.
+😖 **Pain:** The existing website mirrored the internal org chart. Online student's campus was barely visible, academic research was underrepresented, and the three language versions didn't always say the same things in the same way.
 
 📱 **Solution:** A new information architecture built around visitors rather than departments, and a writing guide to keep content consistent across three languages.
 
-🚀 **Approach:** Stakeholder alignment first, then content audit, architecture exploration and validation with real visitors. Carried out with the UX agency 8ratio, with me as Product Owner on the institute side.
+🚀 **Approach:** Stakeholder alignment first, then content audit, architecture exploration and validation with real visitors. UX strategy and architecture co-created with the Lausanne-based UX agency [:ratio](https://8ratio.ch), with me as Product Owner on the institute side.
 
-![Sitemap UniDistance](/images/work/funid-ia-board.png)
-_UniDistance Suisse: New site architecture_
+![Working board Nomen University](/images/work/nomen-ia-board.png)
+_Nomen University: Architecture's visualization_
 
 ## Methodology
 
@@ -31,7 +31,7 @@ The project followed three steps: align, structure, sustain.
 
 ## 🤝 Align: build a shared vision of the stakes
 
-👉 **Workshops:** Two workshops with heads of different departments, facilitated with the agency. Instead of collecting opinions in silos, they created a space for dialogue between teams that rarely sit at the same table.
+👉 **Workshops:** Two workshops with heads of different departments, facilitated by :ratio. Instead of collecting opinions in silos, they created a space for dialogue between teams that rarely sit at the same table.
 
 👉 **Audiences and needs:** Each group made explicit what our target audiences expect, and named its own needs and wishes for the new site.
 
@@ -47,24 +47,23 @@ The project followed three steps: align, structure, sustain.
 
 👉 **Labeling:** For two important sections, visitors were also invited to suggest labels. A way to make sure the site's vocabulary speaks to those who read it, not only to those who write it.
 
-<!-- ![Tree test results UniDistance](/images/work/funid-ia-treetest.png)
-_UniDistance Suisse: Tree test results_ -->
+<!-- ![Tree test results Nomen University](/images/work/nomen-ia-treetest.png)
+_Nomen University: Tree test results_ -->
 
 ## ✍️ Sustain: useful, consistent and durable content in three languages
 
-📖 **Web writing guide:** A complete reference for every UniDistance Suisse contributor: web vs. print writing, tone and clarity, typography, microcopy, media, SEO, creation and validation process.
+📖 **Web writing guide:** A complete reference for every Nomen University contributor: web vs. print writing, tone and clarity, typography, microcopy, media, SEO, creation and validation process.
 
 🌍 **Multilingual:** The guide accounts for the specifics of a trilingual university institute (French, German, English) and the communication needs of each audience. Consistency doesn't mean uniformity.
-
 
 ## 🚀 Implementation: from strategy to migration
 
 With this strategy in hand, the communication team started migrating content to the new structure.
 
-But when a concept meets implementation, reality always pushes back: unanticipated questions, things to validate with visitors, key pages to bring to life. We set up an ongoing consulting subscription with the agency so the team can get expert input at its own pace, and carry the project through without delays or surprises.
+But when a concept meets implementation, reality always pushes back: unanticipated questions, things to validate with visitors, key pages to bring to life. We set up an ongoing consulting subscription with :ratio so the team can get expert input at its own pace, and carry the project through without delays or surprises.
 
-![Sitemap UniDistance](/images/work/funid-ia-sitemap.png)
-_UniDistance Suisse: New site architecture_
+![Sitemap Nomen University](/images/work/nomen-ia-sitemap.png)
+_Nomen University: New site architecture_
 
 ---
 
@@ -98,7 +97,7 @@ Halvorson, K., & Rach, M. (2012). *Content Strategy for the Web* (2nd ed.). New 
 ---
 
 ## 🙏 Credits
- 
+
 UX strategy and information architecture: co-created by [:ratio](https://8ratio.ch), UX agency in Lausanne, and Tanya Lathion.
 Workshop facilitation, tree testing and web writing guide: [:ratio](https://8ratio.ch).
-Product ownership on the UniDistance Suisse side: Tanya Lathion.
+Product ownership on the Nomen University side: Tanya Lathion.
